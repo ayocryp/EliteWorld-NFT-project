@@ -9,12 +9,34 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 :root{
-    --white: #fff;
+    --white: #ffff;
+    --cyan: #00ffff;
 }
 
+
+#navmenu:hover{
+    background: var(--cyan);
+    transition: ease-out, 1.5s;
+    /* transform: translate(0 0); */
+    transform: translate(-10%);
+    border: none;
+    }
+    
+
 #menu-cta{
-    background: linear-gradient(180deg, rgba(186,11,218,1) 35%, rgba(234,35,108,1) 100%);
+    background: var(--cyan);
     color: var(--white);
     text-decoration: none;
+    border: none;
+    padding: 0rem 1rem; 
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+#menu-cta:hover{
+    background: rgba(234,35,108,1);
+    transition: ease-out, 1.5s;
+    transform: translate(-10%);
+    border: none;
 }
 

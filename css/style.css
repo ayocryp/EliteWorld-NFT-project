@@ -40,3 +40,147 @@ body{
     border: none;
 }
 
+
+
+#Hero{
+    padding: 15% 5%;
+    text-align: center;
+    background-color: var(--cyan);
+}
+
+
+.title{
+    color: whitesmoke;
+
+}
+
+.text{
+    margin-top: 5px;
+
+}
+
+.text, p{
+    color: white;
+}
+
+
+
+.button-container{
+    margin-top: 6%;
+
+}
+
+.button{
+    border: 1px solid ;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: purple;
+}
+
+
+
+
+/* Hero Image */
+
+.hero-img{
+    width: 50%;
+    height: 60%;
+}
+
+
+/* About Us section */
+
+#About-container{
+    text-align: center;
+    padding: 8% 15%;
+}
+
+.about-title{
+    color: var(--cyan);
+}
+
+/* Road map */
+
+#road-map-section{
+    text-align: center;
+
+}
+
+.road-map-title{
+    color: var(--white);
+}
+
+
+/* Team section */
+
+#team-section{
+    text-align: center;
+    margin-top: 25px;
+    padding: 7% 8%;
+}
+.team-title{
+    text-align: center;
+    color: var(--cyan);
+    margin-bottom: 10%;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.img-1{
+    width: 50%;
+    height: 60%;
+    border: 1px solid var(--cyan);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.img-2{
+    width: 50%;
+    height: 60%;
+    border: 1px solid var(--cyan);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.img-3{
+    width: 50%;
+    height: 60%;
+    border: 1px solid var(--cyan);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+
+#contact-section{
+    text-align: center;
+    padding: 5% 7%;
+}
+
+.contact-title{
+    color: var(--cyan);
+}
+
+
+
+
+
+
+/* Mobile */
+
+@media  screen and (max-width:900px) {
+
+
+    #Hero{
+        padding: 30% 5%;
+        text-align: center;
+    }
+    .hero-img{
+        display: none;
+    }
+    
+}

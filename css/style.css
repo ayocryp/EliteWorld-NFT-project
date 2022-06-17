@@ -3,14 +3,20 @@
     padding: 0; 
     margin: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100&display=swap');
 
 body{
     background-color: #000000;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    overflow-x: hidden;
 }
 :root{
     --white: #ffff;
     --cyan: #00ffff;
+    --orange: rgba(234,35,108,1);
 }
 
 
@@ -40,23 +46,31 @@ body{
     border: none;
 }
 
-
+section{
+    padding: 60px 0;
+}
 
 #Hero{
-    padding: 15% 5%;
+    padding: 1% 0;
     text-align: center;
-    background-color: var(--cyan);
+    background: linear-gradient(225deg, rgba(0,0,0,1) 87%, rgba(0,255,255,0.9) 100%);
+    /* background-color: var(--cyan); */
 }
 
 
-.title{
+#titlee{
     color: whitesmoke;
-
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
 }
 
 .text{
-    margin-top: 5px;
-
+    /* margin-top: 5px; */
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
 }
 
 .text, p{
@@ -71,20 +85,35 @@ body{
 }
 
 .button{
-    border: 1px solid ;
+    background: var(--orange);
+    border: none;
     text-decoration: none;
-    padding: 5px 10px;
-    color: purple;
+    padding: 1.3rem 2rem;
+    color: var(--white);
+    border-radius: 2px;
+    margin: 0.5rem;
+    cursor: pointer;
 }
 
+.button, a{
+    text-decoration: none;
+}
 
+.button:hover{
+    background: var(--cyan);
+    transition: ease-out, 1.5s;
+    transform: translate(-10%);
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+}
 
 
 /* Hero Image */
 
-.hero-img{
-    width: 50%;
-    height: 60%;
+.hero-imgg{
+    width: 700px;
+    height: 650px;
 }
 
 

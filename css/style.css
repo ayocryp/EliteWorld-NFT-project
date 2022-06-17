@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0; 
     margin: 0;
-    overflow-x: hidden;
+   
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
@@ -55,7 +55,7 @@ section{
 }
 
 #Hero{
-    padding: 5% 6%;
+    padding: 6% 5%;
     text-align: center;
     background: linear-gradient(180deg, rgba(0,0,0) 87%, rgba(0,255,255,0.9) 190%);
     /* background-color: var(--cyan); */
@@ -95,7 +95,7 @@ section{
     background: var(--orange);
     border: none;
     text-decoration: none;
-    padding: 1.3rem 2rem;
+    padding: 10px 13px;
     color: var(--white);
     border-radius: 2px;
     margin: 0.5rem;

@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
 body{
     background-color: #000000;
@@ -34,7 +35,7 @@ body{
     
 
 #menu-cta{
-    background: var(--cyan);
+    background: var(--orange);
     color: var(--white);
     text-decoration: none;
     border: none;
@@ -44,7 +45,7 @@ body{
 }
 
 #menu-cta:hover{
-    background: rgba(234,35,108,1);
+    background: var(--cyan);
     transition: ease-out, 1.5s;
     transform: translate(-10%);
     border: none;
@@ -144,8 +145,8 @@ body{
 
 #road-map-section{
     text-align: center;
-    padding: 20% 8%;
-    background: radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(14, 225, 225, 0.5) 100%);
+    padding: 5% 15%;
+    background: radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(6, 235, 235, 0.541) 100%);
 }
 
 .road-map-title{
@@ -160,21 +161,25 @@ body{
     margin-top: 25px;
     padding: 7% 8%;
 }
+.team-title{
+    color: var(--white);
+    letter-spacing: 0;
+}
 .team-text{
     text-align: center;
     color: var(--white);
     margin-bottom: 10%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    font-size: 34px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
     letter-spacing: 0;
     text-transform: uppercase;
 }
 .team-text p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 100;
     font-size: 15px;
-    letter-spacing: 0;
+    letter-spacing: 7;
     color: var(--cyan);
 }
 
@@ -183,6 +188,10 @@ body{
     justify-content: center;
 }
 
+.team-image{
+    border: 0px solid var(--white);
+    border-radius: 10px;
+}
 
 
 .img-1{
@@ -219,8 +228,12 @@ body{
     color: var(--cyan);
 }
 
-
-
+/* NFT */
+#nft{
+    text-align: center;
+    padding: 5% 15%;
+    background: radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(6, 235, 235, 0.541) 100%);
+}
 
 
 
@@ -238,4 +251,14 @@ body{
         display: none;
     }
     
+    .about-title{
+        color: var(--white);
+        letter-spacing: 0;
+        /* margin-top: 15%; */
+    }
+
+    .road-map-title{
+        color: var(--white);
+       
+    }
 }

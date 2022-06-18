@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0; 
     margin: 0;
+    overflow-x: hidden
    
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@500&display=swap');
@@ -125,7 +126,7 @@ body{
 }
 
 
-/* Hero Image */
+/* Hero section*/
 
 .hero-imgg{
     width: 700px;
@@ -150,6 +151,83 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
 }
+
+
+#collection-section{
+    text-align: center;
+    padding: 8% 10%;
+
+}
+
+.collection-title{
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.collection-text-container{
+    padding: 2%;
+
+}
+
+.collection-text{
+
+}
+
+
+.sub-tittle-container{
+   padding: 1% 10%;
+    background-color: var(--orange);
+    font-size: 15px;
+    margin: 4%;
+}
+
+.price-text{
+    padding-top: 7px;
+}
+.main-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container{
+    
+    padding: 2% 1%;
+    margin: 2% 2%;
+    border: 1px solid ;
+    
+}
+.collection-img{
+    width: 90%;
+    height: 90%;
+    border-radius: 3px;
+}
+
+
+.label-container{
+
+    margin-top: 6%;
+
+}
+.mint-btn-container{
+    padding: 2%;
+}
+
+.mint-btn{
+    border: 1px solid var(--orange) ;
+    padding: 3px 10px;
+    color: white;
+    background-color: var(--orange);
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+
+.mint-btn:hover{
+    color: orangered;
+}
+
+
 /* Road map */
 
 #road-map-section{
@@ -271,4 +349,14 @@ body{
         color: var(--white);
        
     }
+
+.main-image-container{
+    flex-direction: column;
+   
+}
+
+.inner-container{
+    margin: 3%;
+    padding: 5%;
+}
 }

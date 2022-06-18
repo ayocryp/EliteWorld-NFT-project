@@ -24,7 +24,12 @@ body{
     --orange: rgba(234,35,108,1);
 }
 
-
+#navmenu{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 5;
+}
 #navmenu:hover{
     background: var(--cyan);
     transition: ease-out, 1.5s;
@@ -61,10 +66,14 @@ body{
 
 #titlee{
     color: whitesmoke;
-    font-size: 60px;
+    /* font-size: 60px;
     font-weight: 800;
     font-family: monospace;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 5;
     text-align: center;
 }
 
@@ -92,9 +101,9 @@ body{
     background: var(--orange);
     border: none;
     text-decoration: none;
-    padding: 10px 13px;
+    padding: 18px 13px;
     color: var(--white);
-    border-radius: 2px;
+    border-radius: 1px;
     margin: 0.5rem;
     cursor: pointer;
 }
@@ -160,6 +169,7 @@ body{
     text-align: center;
     margin-top: 25px;
     padding: 7% 8%;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 8%, rgba(255,35,108,1) 999%);
 }
 .team-title{
     color: var(--white);
@@ -232,7 +242,7 @@ body{
 #nft{
     text-align: center;
     padding: 5% 15%;
-    background: radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(6, 235, 235, 0.541) 100%);
+    /* background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(255,35,108,1) 887%); */
 }
 
 

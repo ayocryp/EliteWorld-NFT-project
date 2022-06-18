@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0; 
     margin: 0;
+
    
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@500&display=swap');
@@ -125,7 +126,7 @@ body{
 }
 
 
-/* Hero Image */
+/* Hero section*/
 
 .hero-imgg{
     width: 700px;
@@ -151,6 +152,104 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
+
+/* COLLECTION SECTION */
+
+#collection-section{
+    text-align: center;
+    padding: 8% 10%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 300;
+    /* font-size: 18px; */
+    letter-spacing: 5;
+
+}
+
+.collection-title{
+    font-weight: bold;
+    color: var(--orange);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: 5;
+}
+
+.collection-text-container{
+    padding: 2%;
+
+}
+
+.collection-text{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 2;
+}
+
+
+.sub-tittle-container{
+   padding: 1% 10%;
+    background-color: var(--orange);
+    font-size: 15px;
+    margin: 4%;
+}
+
+.price-text{
+    padding-top: 9px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2;
+}
+.main-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px;
+    
+}
+
+.inner-container{
+    
+    padding: 2% 1%;
+    margin: 2% 2%;
+    border: 1px solid ;
+    /* box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px; */
+    
+}
+.collection-img{
+    width: 90%;
+    height: 90%;
+    border-radius: 3px;
+}
+
+
+.label-container{
+
+    margin-top: 6%;
+
+}
+.mint-btn-container{
+    padding: 2%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 100;
+    letter-spacing: 6;
+}
+
+.mint-btn{
+    border: 1px solid var(--orange) ;
+    padding: 3px 10px;
+    color: white;
+    background-color: var(--orange);
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.mint-btn:hover{
+    color: white;
+}
+
 
 #about-cta {
     background: var(--orange);
@@ -191,6 +290,7 @@ body{
     text-align: center;
     padding: 5% 15%;
     border-bottom: #00ffff;
+    background: radial-gradient(circle, rgba(51,41,112,1) 0%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 46%, rgba(51,41,112,1) 52%, rgba(0,0,0,1) 52%, rgba(0,0,0,1) 58%, rgba(0,0,0,1) 66%);
     /* background: radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(6, 235, 235, 0.541) 100%); */
 }
 
@@ -307,4 +407,21 @@ body{
         color: var(--white);
        
     }
+
+.main-image-container{
+    flex-direction: column;
+   
+}
+
+.inner-container{
+    margin: 3%;
+    padding: 5%;
+}
+
+.inner-container{
+    
+
+    box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px;
+    
+}
 }

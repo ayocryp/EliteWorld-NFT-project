@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0; 
     margin: 0;
-    overflow-x: hidden
+
    
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@500&display=swap');
@@ -138,7 +138,8 @@ body{
 
 #About-container{
     text-align: center;
-    padding: 5% 15%;
+    padding: 5% 2%;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 8%, rgba(255,35,108,1) 999%);
 }
 
 .about-title{
@@ -227,6 +228,39 @@ body{
     color: orangered;
 }
 
+
+#about-cta {
+    background: var(--orange);
+    border: none;
+    text-decoration: none;
+    padding: 15px 18px;
+    color: var(--white);
+    border-radius: 1px;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 5;
+}
+
+#about-cta, a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+#about-cta, a:hover {
+    text-decoration: none;
+    color: var(--white);
+}
+#about-cta:hover{
+    color: rgba(255, 255, 255, 0.216);
+    background: var(--cyan);
+    transition: ease-in-out, 1.5s;
+    transform: translate(-2%);
+    
+    border: none;
+}
 
 /* Road map */
 

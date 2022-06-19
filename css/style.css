@@ -188,7 +188,7 @@ body{
 
 
 .sub-tittle-container{
-   padding: 1% 10%;
+   padding: 1% 15%;
     background-color: var(--orange);
     font-size: 15px;
     margin: 4%;
@@ -197,9 +197,16 @@ body{
 .price-text{
     padding-top: 9px;
     font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 2;
+    font-size: 20px;
 }
+
+.live-text{
+    color: rgba(51,41,112,1);
+    font-weight: 100;
+}
+
 .main-image-container{
     display: flex;
     align-items: center;

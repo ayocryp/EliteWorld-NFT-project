@@ -204,7 +204,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px;
+    /* box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px; */
     
 }
 
@@ -245,11 +245,43 @@ body{
     cursor: pointer;
 }
 
-
 .mint-btn:hover{
     color: white;
 }
 
+
+.collection-date{
+    color: var(--white);
+    letter-spacing: 0;
+    padding-top: 2%;
+}
+
+.countdown-ctn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+    
+}
+
+.date-circle{
+    padding: 2% 1%;
+    margin: 2% 2%;
+    border: 1px solid black;
+    
+    /* box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px; */
+    box-shadow:    rgba(234,35,108, 0.45) 0px 6px 11px, rgba(234,35,108, 0.45) 0px -2px 5px;
+    
+    /* border-radius: 1004px; */
+}
+
+.date-launch{
+   margin: 2%;
+}
+
+
+/* ABOUT US - ELITE MISSION */
 
 #about-cta {
     background: var(--orange);
@@ -305,7 +337,7 @@ body{
     text-align: center;
     margin-top: 25px;
     padding: 7% 8%;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 8%, rgba(255,35,108,1) 999%);
+    background: linear-gradient(180deg, rgba(0,0,0) 87%, rgba(0,255,255,0.9) 190%);
 }
 .team-title{
     color: var(--white);
@@ -382,7 +414,57 @@ body{
 }
 
 
+#faq{
+    background:  url(/assets/galaxy.jpeg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 25px;
+    padding: 7% 8%;
+}
 
+
+
+/* FOOTER */
+
+footer {
+    padding: 4%;
+    background: rgb(0, 0, 0) url(/images/100710_red_maple_leaf.svg)
+      no-repeat fixed right bottom;
+    background-size: 100px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 5;
+  }
+
+  .footer-text{
+    padding: 15px;
+  }
+  .footer-text a {
+    text-decoration: none;
+    color: var(--white);
+    text-align: center;
+    font-weight: 200;
+    
+  }
+
+  /* .footer-title{
+    color: var(--white);
+    font-size: 32px;
+    
+    font-weight: 400;
+  } */
+  .footer-title{
+    font-size: 36px;
+    /* padding: 10px; */
+    color: var(--orange);
+    letter-spacing: 1;
+  }
+
+  .ico{
+    font-size: 21px;
+    padding-right: 4px;
+  }
 /* Mobile */
 
 @media  screen and (max-width:900px) {

@@ -37,9 +37,9 @@ let x = setInterval(function () {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
   
-  document.querySelector('#days').innerText = `${days} : `
-  document.querySelector('#hours').innerText = `${hours} : `
-  document.querySelector('#minutes').innerText = `${minutes} : `
+  document.querySelector('#days').innerText = `${days}  `
+  document.querySelector('#hours').innerText = `${hours} `
+  document.querySelector('#minutes').innerText = `${minutes} `
   document.querySelector('#seconds').innerText = `${seconds} `
 
   if (distance < 0) {
@@ -54,8 +54,7 @@ let x = setInterval(function () {
 
 // To scroll left 
 
-$('document').ready(function(){
-  $('#scroll-left').slick({
+$('#scroll-left').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -63,7 +62,8 @@ $('document').ready(function(){
     asNavFor: '#scroll-right'
   });
 
-});
+
+
 
 //Scroll right
 

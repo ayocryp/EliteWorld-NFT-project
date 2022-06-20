@@ -500,15 +500,15 @@ footer {
     font-weight: 400;
   } */
   .footer-title{
-    font-size: 36px;
+    font-size: 30px;
     /* padding: 10px; */
     color: var(--white);
     letter-spacing: 1;
   }
 
   .ico{
-    font-size: 41px;
-    padding-right: 4px;
+    font-size: 35px;
+    /* padding-right: 4px; */
     color: var(--white);
   }
 /* Mobile */

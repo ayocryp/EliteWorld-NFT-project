@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
 body{
     background-color: #000000;
@@ -61,16 +62,11 @@ body{
     padding: 6% 5%;
     text-align: center;
     background: linear-gradient(180deg, rgba(0,0,0) 87%, rgba(0,255,255,0.9) 190%);
-    /* background-color: var(--cyan); */
 }
 
 
 #titlee{
     color: whitesmoke;
-    /* font-size: 60px;
-    font-weight: 800;
-    font-family: monospace;
-    letter-spacing: 1px; */
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     font-size: 55px;
@@ -210,17 +206,19 @@ body{
 .main-image-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px; */
-    
+    justify-content: center; 
 }
 
+.inner-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-5px);
+    transition: all .1s ease-in-out;
+}
 .inner-container{
     
     padding: 2% 1%;
     margin: 2% 2%;
-    border: 1px solid ;
-    /* box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px; */
+    border: 1px solid;
     
 }
 .collection-img{
@@ -265,27 +263,25 @@ body{
 
 .countdown-ctn{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    padding: 3% 0;
-    
+    align-items: center;
+    margin-top: 5%;
+}
+.countdown-ctn div{
+    flex-basis: 100px;
+}
+.countdown-ctn p{
+    font-size: 45px;
+    color: var(--orange);
+    font-weight: 600;
+    box-shadow: var(--orange) 0px 25px 20px -31px;
+}
+.countdown-ctn span{
+    font-size: 20px;
+    margin-top: 3%;
+    color: var(--white);
 }
 
-.date-circle{
-    padding: 2% 1%;
-    margin: 2% 2%;
-    border: 1px solid black;
-    
-    /* box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px; */
-    box-shadow:    rgba(234,35,108, 0.45) 0px 6px 11px, rgba(234,35,108, 0.45) 0px -2px 5px;
-    
-    /* border-radius: 1004px; */
-}
-
-.date-launch{
-   margin: 2%;
-}
 
 
 /* ABOUT US - ELITE MISSION */
@@ -329,8 +325,9 @@ body{
     text-align: center;
     padding: 25% 10%;
     border-bottom: #00ffff;
-    background: radial-gradient(circle, rgba(51,41,112,1) 0%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 46%, rgba(51,41,112,1) 52%, rgba(0,0,0,1) 52%, rgba(0,0,0,1) 58%, rgba(0,0,0,1) 66%);
-    /* background: radial-gradient(circle, rgba(0,0,0,1) 18%, rgba(6, 235, 235, 0.541) 100%); */
+    background-image:  radial-gradient(circle, rgba(51,41,112,1) 0%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 46%, rgba(51,41,112,1) 52%, rgba(0,0,0,1) 52%, rgba(0,0,0,1) 58%, rgba(0,0,0,1) 66%);
+    background-repeat: no-repeat;
+
 }
 
 .road-map-title{
@@ -338,6 +335,46 @@ body{
     
 }
 
+.roadmap-p{
+    
+    padding: 3% 0;
+    color: var(--white);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 2;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.project-title{
+    font-size: 30px;
+}
+.rocket{
+    width: 60px;
+    position: absolute;
+    /* bottom: 0px; */
+    right: 30%;
+    left: 73%;
+    animation: rocket 4s linear infinite;
+    
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+} 
+.rocket-2{
+    width: 60px;
+    position: absolute;
+    /* bottom: 0px; */
+    left: 20%;
+    animation: rocket 5s linear infinite;
+}
 
 /* Team section */
 
@@ -514,5 +551,11 @@ footer {
 
     box-shadow: rgba(234,35,108, 0.45) 0px 25px 20px -20px;
     
+}
+
+.countdown-ctn p{
+    font-size: 20px;
+    color: var(--orange);
+    font-weight: 600;
 }
 }

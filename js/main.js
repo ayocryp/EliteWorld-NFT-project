@@ -21,3 +21,32 @@ function nasa() {
 }
 
 nasa()
+
+
+// Countdown 
+let countDown = new Date("Oct 16, 2022 00:00:00").getTime(); 
+let x = setInterval(function () {
+  // get current date
+  let now = new Date().getTime();
+  // time distance
+  let distance = countDown - now;
+
+  // days hours minutes & seconds calculation
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  document.querySelector('#days').innerText = `${days} : `
+  document.querySelector('#hours').innerText = `${hours} : `
+  document.querySelector('#minutes').innerText = `${minutes} : `
+  document.querySelector('#seconds').innerText = `${seconds} `
+
+  if (distance < 0) {
+    clearInterval(x); 
+    document.querySelector('#days').innerText = `00`
+    document.querySelector('#hours').innerText = `00`
+    document.querySelector('#minutes').innerText = `00`
+    document.querySelector('#seconds').innerText = `00`
+  }
+}, 1000);

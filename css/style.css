@@ -491,11 +491,11 @@ Clear floats after the columns
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6%;
+  padding: 3%;
 }
 
 .inner-rd-con{
-  margin: 3%;
+  margin: 2%;
  
 }
 
@@ -722,6 +722,6 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .inner-rd-con{
-    margin: 6%;
+    margin: 3%;
   }
 }

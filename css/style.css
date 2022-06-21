@@ -738,10 +738,9 @@ footer {
     padding: 1% 4%;
     
     
-   
-    
   }
 
+  
 
   /* new road map */
   .rd-mp-container{
@@ -761,4 +760,27 @@ footer {
     margin-top: 5%;
     font-size: 24px;
   }
+
+  .date-circle{
+    padding: 7% 13%;
+  }
+  #min-container{
+    padding: 7% 13%; 
+  }
+  
+  #seconds-container{
+    padding: 7% 13%; 
+  
+  }
+
+  #scroll-left{
+    display: none;
+  }
+  
+  #scroll-right{
+    display: none;
+  }
+
+
+
 }

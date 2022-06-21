@@ -674,8 +674,10 @@ footer {
 
 .Copyright{
   margin-top: 4%;
-  font-size: 23px;
-
+  /* font-size: 23px; */
+  font-size: 18px;
+  letter-spacing: 0;
+  font-weight: 100;
 }
 
 

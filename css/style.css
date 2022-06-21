@@ -281,13 +281,13 @@ a {
 
 
 #scroll-left{
-  color: white;
-  font-size: 25px;
+  color: var(--white);
+  font-size: 30px;
 }
 
 #scroll-right{
-  color: white;
-  font-size: 25px;
+  color: var(--white);
+  font-size: 30px;
 }
 
 .inner-container:hover {
@@ -413,7 +413,6 @@ a:hover {
   background: var(--cyan);
   transition: ease-in-out, 1.5s;
   transform: translate(-2%);
-
   border: none;
 }
 

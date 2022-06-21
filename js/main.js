@@ -54,6 +54,7 @@ let x = setInterval(function () {
 
 // To scroll left 
 
+$('body').ready(function(){
 $('#scroll-left').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -61,6 +62,7 @@ $('#scroll-left').slick({
     fade: true,
     asNavFor: '#scroll-right'
   });
+});
 
 
 

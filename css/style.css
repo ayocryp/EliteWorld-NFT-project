@@ -346,11 +346,12 @@ a {
 }
 
 .date-circle{
-  border: 1px solid var(--orange);
-  margin: 3%;
-  padding: 4%;
-  border-radius: 47%;
-  background-color: var(--orange);
+  border: 1px solid var(--white);
+  margin: 5%;
+  width: 39%;
+  padding: 4% ;
+  border-radius: 80%;
+  background-color: var(--white);
   color: black;
 }
 
@@ -358,11 +359,11 @@ a {
   font-size: 45px;
   color: black;
   font-weight: 600;
-  padding-bottom: 25%;
+  /* padding-bottom: 25%; */
 }
 .countdown-ctn span {
   font-size: 40px;
-  margin: 8%;
+  /* margin: 8%; */
   color:black;
 
   /* border: 2px solid red; */
@@ -411,7 +412,7 @@ a:hover {
   float: left;
   width: 25%;
   padding: 15% 5%;
- Should be removed. Only for demonstration */
+ Should be removed. Only  for demonstration */
 
 
 Clear floats after the columns
@@ -490,10 +491,12 @@ Clear floats after the columns
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 6%;
 }
 
 .inner-rd-con{
   margin: 3%;
+ 
 }
 
 .rd-img-con{
@@ -699,6 +702,8 @@ footer {
   
   .countdown-ctn{
     padding: 1% 6%;
+    flex-direction: column;
+
   }
 
   .countdown-ctn span {

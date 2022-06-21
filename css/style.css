@@ -501,7 +501,7 @@ Clear floats after the columns
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 
 .inner-rd-con{
@@ -748,7 +748,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .inner-rd-con{
-    margin: 3%;
+    margin: 5%;
   }
 
   .footer-title{
@@ -758,7 +758,7 @@ footer {
 
   .Copyright{
     margin-top: 5%;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .date-circle{

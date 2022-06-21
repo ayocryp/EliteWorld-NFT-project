@@ -63,7 +63,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0) 87%,
-    rgba(0, 255, 255, 0.799) 190%
+    #30bdd0e1 120%
   );
 }
 
@@ -133,23 +133,23 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  background-image: linear-gradient(0deg, rgba(234, 35, 108, 0.744) 0%, #24d2b5 100%);
+  background-image: linear-gradient(0deg, rgba(234, 35, 108, 0.356) 0%, #3d7d86cd 90%, #3d7d8694 100% );
 }
 #About-container p{
-  color: black;
+  color: var(--white);
   font-weight: 600;
 }
 
 
 .about-title {
-  color: black;
+  color: var(--white);
   letter-spacing: 0;
 }
 
 .about-text {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  color: #000000;
+  color: var(--white);
 }
 
 /* Marq */
@@ -175,11 +175,14 @@ a {
   flex-direction: column;
   justify-content: center;
   height: 50px; 
+ /* overflow: scroll */
  overflow: hidden;
  position: relative;
  /* background: yellow; */
  color: black;
  /* border: 1px solid orange; */
+ border-left-style: none;
+ border-right-style: none;
 }
 
 .marq p{
@@ -187,38 +190,38 @@ a {
   position: absolute;
  /* width: 100%;
  height: 100%; */
- color: #000000;
+ color: #de1111;
  margin: 0;
  /* line-height: 50px; */
  text-align: center; 
  font-size: 25px;
  /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%); 
+ /* -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);  */
  transform:translateX(100%);
  /* Apply animation to this element */ 
- -moz-animation: scroll-left 10s linear infinite;
- -webkit-animation: scroll-left 10s linear infinite;
+ /* -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 10s linear infinite; */
  animation: scroll-left 10s linear infinite;
 }
 /* Move it (define the animation) */
-@-moz-keyframes scroll-left {
+/* @-moz-keyframes scroll-left {
  0%   { -moz-transform: translateX(100%); }
  100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes scroll-left {
+} */
+/* @-webkit-keyframes scroll-left {
  0%   { -webkit-transform: translateX(100%); }
  100% { -webkit-transform: translateX(-100%); }
-}
+} */
 @keyframes scroll-left {
  0%   { 
- -moz-transform: translateX(100%); /* Browser bug fix */
- -webkit-transform: translateX(100%); /* Browser bug fix */
+ /* -moz-transform: translateX(100%);
+ -webkit-transform: translateX(100%);  */
  transform: translateX(100%);   
  }
  100% { 
- -moz-transform: translateX(-100%); /* Browser bug fix */
- -webkit-transform: translateX(-100%); /* Browser bug fix */
+ /* -moz-transform: translateX(-100%);
+ -webkit-transform: translateX(-100%);  */
  transform: translateX(-100%); 
  }
 }
@@ -233,12 +236,15 @@ a {
   font-weight: 300;
   /* font-size: 18px; */
   letter-spacing: 5;
-  background: linear-gradient(0deg, #330867 0%, rgba(0,0,0,1) 13%);
+  background: linear-gradient(0deg,#9795f0 0%, #330867 0%, rgba(0,0,0,1) 13%, rgba(234, 35, 108, 0.764) 200%);
+  
 }
+
+/* #9795f0 0%, #fbc8d4 100% */
 
 .collection-title {
   font-weight: bold;
-  color: var(--orange);
+  color: var(--white);
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
   font-size: 48px;
@@ -374,21 +380,19 @@ a {
   font-size: 45px;
   color: black;
   font-weight: 600;
-  /* padding-bottom: 25%; */
 }
+
 .countdown-ctn span {
   font-size: 30px;
-  /* margin: 8%; */
   color:black;
   font-weight: bold;
 
-  /* border: 2px solid red; */
 }
 
 /* ABOUT US - ELITE MISSION */
 
 #about-cta {
-  background: var(--orange);
+  background: black;
   border: none;
   text-decoration: none;
   padding: 15px 18px;
@@ -415,20 +419,11 @@ a:hover {
 }
 #about-cta:hover {
   color: rgba(255, 255, 255, 0.216);
-  background: var(--cyan);
+  background: var(--orange);
   transition: ease-in-out, 1.5s;
   transform: translate(-2%);
   border: none;
 }
-
-/* Old Road map */
-
- /* .road-column {
-  float: left;
-  width: 25%;
-  padding: 15% 5%;
- Should be removed. Only  for demonstration */
-
 
 Clear floats after the columns
 .road-row:after {
@@ -446,6 +441,8 @@ Clear floats after the columns
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
+
+/* background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%); */
 /* 
 .road-map-title {
   color: var(--white);
@@ -536,11 +533,7 @@ Clear floats after the columns
   text-align: center;
   margin-top: 25px;
   padding: 7% 8%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0) 87%,
-    rgba(0, 255, 255, 0.9) 190%
-  );
+  background-image: linear-gradient(to top, #30d0d0a5 0%, #330867 50%, rgba(0, 0, 0, 0.696) 100%);
 }
 .team-title {
   color: var(--white);
@@ -782,6 +775,30 @@ footer {
     display: none;
   }
 
+.marq{
+  display: none;
+}
 
+#road-map-section {
+  text-align: center;
+   color: white;
+  padding: 6% 5%;
+  border-bottom: #00ffff;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+
+
+.roadmap-p {
+  padding: 1% 3%;
+  margin: 6%;
+  color: var(--white);
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 2;
+  font-family: "PT Sans Narrow", sans-serif;
+}
 
 }

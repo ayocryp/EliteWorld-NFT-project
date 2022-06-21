@@ -54,29 +54,41 @@ let x = setInterval(function () {
 
 // To scroll left 
 
-$('body').ready(function(){
-$('#scroll-left').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '#scroll-right'
-  });
-});
+// $('body').ready(function(){
+// $('#scroll-left').slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     arrows: false,
+//     fade: true,
+//     asNavFor: '#scroll-right'
+//   });
+// });
 
 
 
 
-//Scroll right
+// //Scroll right
 
-$('document').ready(function(){
-  $('#scroll-right').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '#scroll-left',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
-  });
+// $('document').ready(function(){
+//   $('#scroll-right').slick({
+//     slidesToShow: 3,
+//     slidesToScroll: 1,
+//     asNavFor: '#scroll-left',
+//     dots: true,
+//     centerMode: true,
+//     focusOnSelect: true
+//   });
 
-});
+// });
+
+
+// $('.main-image-container').slick({
+//   infinite: true,
+//   slidesToShow: 3,
+//   slidesToScroll: 3
+// });
+
+
+
+
+

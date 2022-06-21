@@ -340,19 +340,29 @@ a {
 
 .countdown-ctn {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
  
 }
 
 .date-circle{
   border: 1px solid var(--white);
-  margin: 5%;
-  width: 39%;
-  padding: 4% ;
+  margin: 4%;
+  width: 50%;
+  height: 55%;
+  padding: 3% 6% ;
   border-radius: 80%;
   background-color: var(--white);
   color: black;
+}
+
+#min-container{
+  padding: 3% 4%; 
+}
+
+#seconds-container{
+  padding: 3% 4%; 
+
 }
 
 .countdown-ctn p {
@@ -362,9 +372,10 @@ a {
   /* padding-bottom: 25%; */
 }
 .countdown-ctn span {
-  font-size: 40px;
+  font-size: 30px;
   /* margin: 8%; */
   color:black;
+  font-weight: bold;
 
   /* border: 2px solid red; */
 }

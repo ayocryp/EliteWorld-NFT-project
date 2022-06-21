@@ -236,7 +236,7 @@ a {
   font-weight: 300;
   /* font-size: 18px; */
   letter-spacing: 5;
-  background: linear-gradient(0deg,#9795f0 0%, #330867 0%, rgba(0,0,0,1) 13%, rgba(234, 35, 108, 0.764) 200%);
+  background: linear-gradient(0deg,#9795f0 0%, #330867f3 0%, rgba(0,0,0,1) 13%, rgba(234, 35, 108, 0.764) 200%);
   
 }
 
@@ -438,7 +438,7 @@ Clear floats after the columns
    color: white;
   padding: 6% 5%;
   border-bottom: #00ffff;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(to top, #30d0d0cc 0%, #330867f9 100%);
 }
 
 
@@ -608,20 +608,17 @@ Clear floats after the columns
 }
 
 #faq {
-  background: url(/assets/galaxy.jpeg);
-  background-size: cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.764) 15%, rgba(51, 8, 103, 0.759) 55%, rgba(0,255,255,0.6601234243697479) 100%);
   text-align: center;
-  margin-top: 25px;
+  /* margin-top: 20px; */
   padding: 7% 8%;
+  
 }
 
 /* FOOTER */
 
 footer {
   padding: 5% 12%;
-  /* margin-top: 1%; */
-  /* background: white; */
-  /* background-size: 100px; */
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 200;
   font-size: 18px;
@@ -639,32 +636,27 @@ footer {
   text-align: center;
 }
 
-/* .footer-title{
-    color: var(--white);
-    font-size: 32px;
-    
-    font-weight: 400;
-  } */
+
 .footer-title {
   font-size: 30px;
-  /* padding: 10px; */
+  
   color: var(--white);
   letter-spacing: 1;
-  /* text-align: center; */
+
   padding-bottom: 3%;
  
 }
 
 .ico {
   font-size: 35px;
-  /* padding-right: 4px; */
+ 
   color: var(--white);
   text-align: center;
 }
 
 .Copyright{
   margin-top: 4%;
-  /* font-size: 23px; */
+ 
   font-size: 18px;
   letter-spacing: 0;
   font-weight: 100;
@@ -694,7 +686,7 @@ footer {
   .about-title {
     color: var(--white);
     letter-spacing: 0;
-    /* margin-top: 15%; */
+    
   }
 
   .road-map-title {
@@ -714,11 +706,7 @@ footer {
     box-shadow: rgba(234, 35, 108, 0.45) 0px 25px 20px -20px;
   }
 
-  /* .countdown-ctn p {
-    font-size: 15px;
-    color: var(--orange);
-    font-weight: 600;
-  } */
+ 
 
   
   .countdown-ctn{
@@ -737,6 +725,7 @@ footer {
   
 
   /* new road map */
+  
   .rd-mp-container{
     flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

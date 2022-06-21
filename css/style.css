@@ -63,7 +63,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0) 87%,
-    rgba(0, 255, 255, 0.9) 190%
+    rgba(0, 255, 255, 0.799) 190%
   );
 }
 
@@ -133,22 +133,23 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 8%,
-    rgba(255, 35, 108, 1) 999%
-  );
+  background-image: linear-gradient(0deg, rgba(234, 35, 108, 0.744) 0%, #24d2b5 100%);
+}
+#About-container p{
+  color: black;
+  font-weight: 600;
 }
 
+
 .about-title {
-  color: var(--white);
+  color: black;
   letter-spacing: 0;
-  /* text-decoration: underline var(--cyan); */
 }
 
 .about-text {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  color: #000000;
 }
 
 /* Marq */
@@ -186,6 +187,7 @@ a {
   position: absolute;
  /* width: 100%;
  height: 100%; */
+ color: #000000;
  margin: 0;
  /* line-height: 50px; */
  text-align: center; 
@@ -231,6 +233,7 @@ a {
   font-weight: 300;
   /* font-size: 18px; */
   letter-spacing: 5;
+  background: linear-gradient(0deg, #330867 0%, rgba(0,0,0,1) 13%);
 }
 
 .collection-title {
@@ -255,7 +258,7 @@ a {
 
 .sub-tittle-container {
   padding: 1% 15%;
-  background-color: var(--orange);
+  background-color: #330867;
   font-size: 15px;
   margin: 4%;
 }
@@ -269,7 +272,7 @@ a {
 }
 
 .live-text {
-  color: rgba(51, 41, 112, 1);
+  color: var(--white);
   font-weight: 100;
 }
 
@@ -319,10 +322,10 @@ a {
 }
 
 .mint-btn {
-  border: 1px solid var(--orange);
+  border: 1px solid #330867;
   padding: 3px 10px;
   color: white;
-  background-color: var(--orange);
+  background-color: #330867;
   border-radius: 4px;
   font-size: 15px;
   cursor: pointer;
@@ -440,13 +443,7 @@ Clear floats after the columns
    color: white;
   padding: 6% 5%;
   border-bottom: #00ffff;
-  background: linear-gradient(
-    173deg,
-    rgba(51, 41, 112, 0.9878545168067226) 1%,
-    rgba(0, 0, 0, 1) 47%,
-    rgba(51, 41, 112, 0.9934567577030813) 92%
-  );
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 /* 

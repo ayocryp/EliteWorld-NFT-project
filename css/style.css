@@ -282,12 +282,14 @@ a {
 
 #scroll-left{
   color: var(--white);
-  font-size: 30px;
+  font-size: 26px;
+  opacity: 0.3;
 }
 
 #scroll-right{
   color: var(--white);
-  font-size: 30px;
+  font-size: 26px;
+  opacity: 0.3;
 }
 
 .inner-container:hover {
@@ -752,20 +754,20 @@ footer {
   }
 
   .footer-title{
-    font-size: 28px;
+    font-size: 25px;
   
   }
 
   .Copyright{
     margin-top: 5%;
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .date-circle{
     padding: 7% 13%;
   }
   #min-container{
-    padding: 7% 13%; 
+    padding: 7% 8%; 
   }
   
   #seconds-container{

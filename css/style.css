@@ -63,7 +63,7 @@ body {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0) 87%,
-    rgba(0, 255, 255, 0.9) 190%
+    #30bdd0e1 120%
   );
 }
 
@@ -133,22 +133,23 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 8%,
-    rgba(255, 35, 108, 1) 999%
-  );
+  background-image: linear-gradient(0deg, rgba(234, 35, 108, 0.356) 0%, #3d7d86cd 90%, #3d7d8694 100% );
 }
+#About-container p{
+  color: var(--white);
+  font-weight: 600;
+}
+
 
 .about-title {
   color: var(--white);
   letter-spacing: 0;
-  /* text-decoration: underline var(--cyan); */
 }
 
 .about-text {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  color: var(--white);
 }
 
 /* Marq */
@@ -174,11 +175,14 @@ a {
   flex-direction: column;
   justify-content: center;
   height: 50px; 
+ /* overflow: scroll */
  overflow: hidden;
  position: relative;
  /* background: yellow; */
  color: black;
  /* border: 1px solid orange; */
+ border-left-style: none;
+ border-right-style: none;
 }
 
 .marq p{
@@ -186,37 +190,38 @@ a {
   position: absolute;
  /* width: 100%;
  height: 100%; */
+ color: #de1111;
  margin: 0;
  /* line-height: 50px; */
  text-align: center; 
  font-size: 25px;
  /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%); 
+ /* -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);  */
  transform:translateX(100%);
  /* Apply animation to this element */ 
- -moz-animation: scroll-left 10s linear infinite;
- -webkit-animation: scroll-left 10s linear infinite;
+ /* -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 10s linear infinite; */
  animation: scroll-left 10s linear infinite;
 }
 /* Move it (define the animation) */
-@-moz-keyframes scroll-left {
+/* @-moz-keyframes scroll-left {
  0%   { -moz-transform: translateX(100%); }
  100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes scroll-left {
+} */
+/* @-webkit-keyframes scroll-left {
  0%   { -webkit-transform: translateX(100%); }
  100% { -webkit-transform: translateX(-100%); }
-}
+} */
 @keyframes scroll-left {
  0%   { 
- -moz-transform: translateX(100%); /* Browser bug fix */
- -webkit-transform: translateX(100%); /* Browser bug fix */
+ /* -moz-transform: translateX(100%);
+ -webkit-transform: translateX(100%);  */
  transform: translateX(100%);   
  }
  100% { 
- -moz-transform: translateX(-100%); /* Browser bug fix */
- -webkit-transform: translateX(-100%); /* Browser bug fix */
+ /* -moz-transform: translateX(-100%);
+ -webkit-transform: translateX(-100%);  */
  transform: translateX(-100%); 
  }
 }
@@ -231,11 +236,15 @@ a {
   font-weight: 300;
   /* font-size: 18px; */
   letter-spacing: 5;
+  background: linear-gradient(0deg,#9795f0 0%, #330867f3 0%, rgba(0,0,0,1) 13%, rgba(234, 35, 108, 0.764) 200%);
+  
 }
+
+/* #9795f0 0%, #fbc8d4 100% */
 
 .collection-title {
   font-weight: bold;
-  color: var(--orange);
+  color: var(--white);
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
   font-size: 48px;
@@ -255,7 +264,7 @@ a {
 
 .sub-tittle-container {
   padding: 1% 15%;
-  background-color: var(--orange);
+  background-color: #330867;
   font-size: 15px;
   margin: 4%;
 }
@@ -269,7 +278,7 @@ a {
 }
 
 .live-text {
-  color: rgba(51, 41, 112, 1);
+  color: var(--white);
   font-weight: 100;
 }
 
@@ -282,12 +291,14 @@ a {
 
 #scroll-left{
   color: var(--white);
-  font-size: 30px;
+  font-size: 26px;
+  opacity: 0.3;
 }
 
 #scroll-right{
   color: var(--white);
-  font-size: 30px;
+  font-size: 26px;
+  opacity: 0.3;
 }
 
 .inner-container:hover {
@@ -317,10 +328,10 @@ a {
 }
 
 .mint-btn {
-  border: 1px solid var(--orange);
+  border: 1px solid #330867;
   padding: 3px 10px;
   color: white;
-  background-color: var(--orange);
+  background-color: #330867;
   border-radius: 4px;
   font-size: 15px;
   cursor: pointer;
@@ -369,21 +380,19 @@ a {
   font-size: 45px;
   color: black;
   font-weight: 600;
-  /* padding-bottom: 25%; */
 }
+
 .countdown-ctn span {
   font-size: 30px;
-  /* margin: 8%; */
   color:black;
   font-weight: bold;
 
-  /* border: 2px solid red; */
 }
 
 /* ABOUT US - ELITE MISSION */
 
 #about-cta {
-  background: var(--orange);
+  background: black;
   border: none;
   text-decoration: none;
   padding: 15px 18px;
@@ -410,20 +419,11 @@ a:hover {
 }
 #about-cta:hover {
   color: rgba(255, 255, 255, 0.216);
-  background: var(--cyan);
+  background: var(--orange);
   transition: ease-in-out, 1.5s;
   transform: translate(-2%);
   border: none;
 }
-
-/* Old Road map */
-
- /* .road-column {
-  float: left;
-  width: 25%;
-  padding: 15% 5%;
- Should be removed. Only  for demonstration */
-
 
 Clear floats after the columns
 .road-row:after {
@@ -438,15 +438,11 @@ Clear floats after the columns
    color: white;
   padding: 6% 5%;
   border-bottom: #00ffff;
-  background: linear-gradient(
-    173deg,
-    rgba(51, 41, 112, 0.9878545168067226) 1%,
-    rgba(0, 0, 0, 1) 47%,
-    rgba(51, 41, 112, 0.9934567577030813) 92%
-  );
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #30d0d0cc 0%, #330867f9 100%);
 }
 
+
+/* background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%); */
 /* 
 .road-map-title {
   color: var(--white);
@@ -537,11 +533,7 @@ Clear floats after the columns
   text-align: center;
   margin-top: 25px;
   padding: 7% 8%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0) 87%,
-    rgba(0, 255, 255, 0.9) 190%
-  );
+  background-image: linear-gradient(to top, #30d0d0a5 0%, #330867 50%, rgba(0, 0, 0, 0.696) 100%);
 }
 .team-title {
   color: var(--white);
@@ -616,20 +608,17 @@ Clear floats after the columns
 }
 
 #faq {
-  background: url(/assets/galaxy.jpeg);
-  background-size: cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.764) 15%, rgba(51, 8, 103, 0.759) 55%, rgba(0,255,255,0.6601234243697479) 100%);
   text-align: center;
-  margin-top: 25px;
+  /* margin-top: 20px; */
   padding: 7% 8%;
+  
 }
 
 /* FOOTER */
 
 footer {
   padding: 5% 12%;
-  /* margin-top: 1%; */
-  /* background: white; */
-  /* background-size: 100px; */
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 200;
   font-size: 18px;
@@ -647,33 +636,30 @@ footer {
   text-align: center;
 }
 
-/* .footer-title{
-    color: var(--white);
-    font-size: 32px;
-    
-    font-weight: 400;
-  } */
+
 .footer-title {
   font-size: 30px;
-  /* padding: 10px; */
+  
   color: var(--white);
   letter-spacing: 1;
-  /* text-align: center; */
+
   padding-bottom: 3%;
  
 }
 
 .ico {
   font-size: 35px;
-  /* padding-right: 4px; */
+ 
   color: var(--white);
   text-align: center;
 }
 
 .Copyright{
   margin-top: 4%;
-  font-size: 23px;
-
+ 
+  font-size: 18px;
+  letter-spacing: 0;
+  font-weight: 100;
 }
 
 
@@ -700,7 +686,7 @@ footer {
   .about-title {
     color: var(--white);
     letter-spacing: 0;
-    /* margin-top: 15%; */
+    
   }
 
   .road-map-title {
@@ -720,11 +706,7 @@ footer {
     box-shadow: rgba(234, 35, 108, 0.45) 0px 25px 20px -20px;
   }
 
-  /* .countdown-ctn p {
-    font-size: 15px;
-    color: var(--orange);
-    font-weight: 600;
-  } */
+ 
 
   
   .countdown-ctn{
@@ -743,6 +725,7 @@ footer {
   
 
   /* new road map */
+  
   .rd-mp-container{
     flex-direction: row;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -752,20 +735,21 @@ footer {
   }
 
   .footer-title{
-    font-size: 28px;
+    font-size: 25px;
   
   }
 
   .Copyright{
     margin-top: 5%;
     font-size: 20px;
+    font-size: 18px;
   }
 
   .date-circle{
     padding: 7% 13%;
   }
   #min-container{
-    padding: 7% 13%; 
+    padding: 7% 8%; 
   }
   
   #seconds-container{
@@ -781,6 +765,30 @@ footer {
     display: none;
   }
 
+.marq{
+  display: none;
+}
 
+#road-map-section {
+  text-align: center;
+   color: white;
+  padding: 6% 4%;
+  border-bottom: #00ffff;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+
+
+.roadmap-p {
+  padding: 1% 2%;
+  margin: 4%;
+  color: var(--white);
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 2;
+  font-family: "PT Sans Narrow", sans-serif;
+}
 
 }

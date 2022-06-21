@@ -645,6 +645,7 @@ footer {
   color: var(--orange);
   text-align: center;
   font-weight: 200;
+  text-align: center;
 }
 
 /* .footer-title{
@@ -658,13 +659,29 @@ footer {
   /* padding: 10px; */
   color: var(--white);
   letter-spacing: 1;
+  /* text-align: center; */
+  padding-bottom: 3%;
+ 
 }
 
 .ico {
   font-size: 35px;
   /* padding-right: 4px; */
   color: var(--white);
+  text-align: center;
 }
+
+.Copyright{
+  margin-top: 4%;
+  font-size: 23px;
+
+}
+
+
+
+
+
+
 /* Mobile */
 
 @media screen and (max-width: 900px) {
@@ -734,5 +751,15 @@ footer {
   }
   .inner-rd-con{
     margin: 3%;
+  }
+
+  .footer-title{
+    font-size: 28px;
+  
+  }
+
+  .Copyright{
+    margin-top: 5%;
+    font-size: 24px;
   }
 }

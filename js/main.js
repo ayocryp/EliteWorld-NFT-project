@@ -41,6 +41,11 @@ let x = setInterval(function () {
   document.querySelector('#hours').innerText = `${hours} `
   document.querySelector('#minutes').innerText = `${minutes} `
   document.querySelector('#seconds').innerText = `${seconds} `
+  // mobile
+  document.querySelector('#mobile-days').innerText = `${days}  `
+  document.querySelector('#mobile-hours').innerText = `${hours} `
+  document.querySelector('#mobile-minutes').innerText = `${minutes} `
+  document.querySelector('#mobile-seconds').innerText = `${seconds} `
 
   if (distance < 0) {
     clearInterval(x); 
@@ -53,21 +58,20 @@ let x = setInterval(function () {
 
 
 
-// Left adn right scroll
-
+// Left and right scroll
 
 $('.main-image-container').slick({
   dots: true,
   infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  speed: 1000,
+  slidesToShow: 3,
+  slidesToScroll: 3,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 2,
         infinite: true,
         dots: true
       }
@@ -75,8 +79,8 @@ $('.main-image-container').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     },
     {
@@ -86,9 +90,11 @@ $('.main-image-container').slick({
         slidesToScroll: 1
       }
     }
-  
   ]
 });
+
+
+
 				
 
 

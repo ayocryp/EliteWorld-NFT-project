@@ -65,7 +65,7 @@ $('.main-image-container').slick({
   infinite: false,
   speed: 1000,
   slidesToShow: 3,
-  slidesToScroll: 3,
+  slidesToScroll: 1,
   responsive: [
     {
       breakpoint: 1024,
@@ -92,7 +92,6 @@ $('.main-image-container').slick({
     }
   ]
 });
-
 
 
 				

@@ -10,6 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
 body {
   background-color: #000000;
@@ -24,6 +25,7 @@ body {
   --white: #ffff;
   --cyan: #00ffff;
   --orange: rgba(234, 35, 108, 1);
+  --purple: #330867;
 }
 
 #navmenu {
@@ -146,11 +148,12 @@ a {
   letter-spacing: 0;
 }
 
-.about-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
+
+.about-text p{
+  font-family: 'Lato', sans-serif;
   color: var(--white);
 }
+
 
 /* Marq */
 
@@ -357,14 +360,14 @@ a {
 }
 
 .date-circle{
-  border: 1px solid var(--white);
+  border: 1px solid var(--purple);
   margin: 4%;
   width: 50%;
   height: 55%;
   padding: 3% 6% ;
   border-radius: 80%;
-  background-color: var(--white);
-  color: black;
+  background-color: var(--cyan);
+  color: var(--orange);
 }
 
 #min-container{
@@ -378,13 +381,13 @@ a {
 
 .countdown-ctn p {
   font-size: 45px;
-  color: black;
+  color: var(--orange);
   font-weight: 600;
 }
 
 .countdown-ctn span {
   font-size: 30px;
-  color:black;
+  color:var(--orange);
   font-weight: bold;
 
 }
@@ -462,7 +465,7 @@ Clear floats after the columns
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 100;
   font-size: 17px;
-  letter-spacing: 2;
+  letter-spacing: 0;
   font-family: "PT Sans Narrow", sans-serif;
 }
 .project-title {
@@ -515,7 +518,7 @@ Clear floats after the columns
 }
 
 .map-hov h6{
-  font-weight: 00;
+  
   font-size: 22px;
   letter-spacing: 0;
   font-family: inherit;
@@ -528,6 +531,12 @@ Clear floats after the columns
   letter-spacing: 1;
   font-family: "PT Sans Narrow", sans-serif;
   
+}
+
+.map-hov span{
+  font-weight: lighter;
+  color: var(--purple);
+  font-size: 18px;
 }
 
 

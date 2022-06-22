@@ -308,12 +308,12 @@ a {
 }
 .inner-container {
   padding: 2% 1%;
-  margin: 2% 2%;
+  margin: 2% 1%;
   border: 1px solid;
 }
 .collection-img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   border-radius: 3px;
 }
 
@@ -507,7 +507,7 @@ Clear floats after the columns
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3%;
+  padding: 2%;
 }
 
 .inner-rd-con{
@@ -759,6 +759,7 @@ footer {
     padding: 1% 4%;
     
     
+    
   }
 
   
@@ -770,7 +771,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .inner-rd-con{
-    margin: 3%;
+    margin: 5%;
   }
 
   .footer-title{
@@ -780,20 +781,13 @@ footer {
 
   .Copyright{
     margin-top: 5%;
+    font-size: 20px;
     font-size: 18px;
   }
 
-  .date-circle{
-    padding: 7% 13%;
-  }
-  #min-container{
-    padding: 7% 8%; 
-  }
+
+
   
-  #seconds-container{
-    padding: 7% 13%; 
-  
-  }
 
   #scroll-left{
     display: none;
@@ -810,7 +804,7 @@ footer {
 #road-map-section {
   text-align: center;
    color: white;
-  padding: 6% 5%;
+  padding: 6% 4%;
   border-bottom: #00ffff;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
@@ -818,8 +812,8 @@ footer {
 
 
 .roadmap-p {
-  padding: 1% 3%;
-  margin: 6%;
+  padding: 1% 2%;
+  margin: 4%;
   color: var(--white);
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

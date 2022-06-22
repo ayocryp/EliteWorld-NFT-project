@@ -389,6 +389,10 @@ a {
 
 }
 
+/* .countdown-ctn-mobile{
+  display: none;
+} */
+
 /* ABOUT US - ELITE MISSION */
 
 #about-cta {
@@ -731,14 +735,38 @@ footer {
 
   
   .countdown-ctn{
-    padding: 1% 6%;
+    padding: 1% 4%;
     flex-direction: column;
+    
 
+
+  }
+
+  .date-circle{
+
+    
+    width: 50%;
+    height: 50%;
+    padding: 5% 15% ;
+    border-radius: 80%;
+    background-color: var(--white);
+    color: black;
+    font-size: 10px;
+  }
+
+  #min-container{
+    padding: 7% 8%; 
+  }
+  
+  #seconds-container{
+    padding: 7% 13%; 
+  
   }
 
   .countdown-ctn span {
     font-size: 12px;
     padding: 1% 4%;
+    
     
     
   }
@@ -766,17 +794,12 @@ footer {
     font-size: 18px;
   }
 
-  .date-circle{
-    padding: 7% 13%;
+
+
+
   }
-  #min-container{
-    padding: 7% 8%; 
-  }
+
   
-  #seconds-container{
-    padding: 7% 13%; 
-  
-  }
 
   #scroll-left{
     display: none;

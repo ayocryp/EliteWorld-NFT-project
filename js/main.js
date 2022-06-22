@@ -53,15 +53,7 @@ let x = setInterval(function () {
 
 
 
-
-
-// $('.main-image-container').slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3
-// });
-
-
+// Left adn right scroll
 
 
 $('.main-image-container').slick({
@@ -94,9 +86,7 @@ $('.main-image-container').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
+  
   ]
 });
 				

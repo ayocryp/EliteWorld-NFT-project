@@ -812,15 +812,36 @@ footer {
 
 
 .roadmap-p {
-  padding: 1% 2%;
+  padding: 6% 5%;
   margin: 4%;
   color: var(--white);
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 100;
-  font-size: 13px;
+  font-size: 11px;
   letter-spacing: 2;
   font-family: "PT Sans Narrow", sans-serif;
+}
+
+.map-hov{
+  margin: 10%;
+}
+.map-hov h6{
+  font-weight: 00;
+  font-size: 17px;
+  letter-spacing: 0;
+  font-family: inherit;
+  color: var(--white);
+}
+
+.map-hov p{
+  margin: 5%;
+  padding: 6% 5%;
+  font-weight: 200;
+  font-size: 13px;
+  letter-spacing: 1;
+  font-family: "PT Sans Narrow", sans-serif;
+  
 }
 
 }

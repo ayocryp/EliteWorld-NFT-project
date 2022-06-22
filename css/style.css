@@ -737,6 +737,12 @@ footer {
     color: var(--white);
     letter-spacing: 0;
     
+
+  
+  }
+
+  .collection-title{
+    font-size: 30px;
   }
 
   .road-map-title {
@@ -750,15 +756,20 @@ footer {
 
   .inner-container {
     margin: 3%;
-    /* padding: 5%; */
-    width: 50%;
-    height: 50%;
+    
+    width: 100%;
+    height: 90%;
   }
 
   .inner-container {
     box-shadow: rgba(234, 35, 108, 0.45) 0px 25px 20px -20px;
   }
 
+  .label-container p{
+    font-size: 10px;
+ 
+
+  }
  
 
   
@@ -836,7 +847,12 @@ footer {
 }
 
 .map-hov{
-  margin: 10%;
+  margin: 6%;
+
+}
+
+.rd-mp-container{
+  flex-direction:column ;
 }
 .map-hov h6{
   font-weight: 00;
@@ -844,14 +860,15 @@ footer {
   letter-spacing: 0;
   font-family: inherit;
   color: var(--white);
+  padding: 3% ;
 }
 
 .map-hov p{
-  margin: 5%;
-  padding: 6% 5%;
+  margin: 2%;
+  padding: 6% 2%;
   font-weight: 200;
   font-size: 13px;
-  letter-spacing: 1;
+  letter-spacing: 0;
   font-family: "PT Sans Narrow", sans-serif;
   
 }

@@ -394,12 +394,12 @@ a {
 
 /* MOBILE COUNTDOWN */
 .mobile-date p{
-  font-size: 22px;
+  font-size: 18px;
   color: white;
   font-weight: 600;
 }
 .mobile-date span{
-  font-size: 15px;
+  font-size: 11px;
   color:var(--orange);
   font-weight: bold;
 }

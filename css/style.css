@@ -442,11 +442,6 @@ Clear floats after the columns
 }
 
 
-/* background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%); */
-/* 
-.road-map-title {
-  color: var(--white);
-} */
 
 .roadmap-p {
   padding: 3% 0;
@@ -502,7 +497,33 @@ Clear floats after the columns
 
 .inner-rd-con{
   margin: 2%;
- 
+}
+
+.map-hov h6{
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0;
+  font-family: inherit;
+  color: #000000;
+}
+
+.map-hov p{
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 3;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+
+
+
+.map-hov:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration:  0.3s;
+  transition: all ease 1s;
+  font-weight: 600;
 }
 
 .rd-img-con{
@@ -551,10 +572,10 @@ Clear floats after the columns
 }
 .team-text p {
   font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 100;
-  font-size: 15px;
+  font-weight: 200;
+  font-size: 20px;
   letter-spacing: 7;
-  color: var(--cyan);
+  color: black;
 }
 
 .team-container {

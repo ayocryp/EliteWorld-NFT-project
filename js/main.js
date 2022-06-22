@@ -41,6 +41,11 @@ let x = setInterval(function () {
   document.querySelector('#hours').innerText = `${hours} `
   document.querySelector('#minutes').innerText = `${minutes} `
   document.querySelector('#seconds').innerText = `${seconds} `
+  // mobile
+  document.querySelector('#mobile-days').innerText = `${days}  `
+  document.querySelector('#mobile-hours').innerText = `${hours} `
+  document.querySelector('#mobile-minutes').innerText = `${minutes} `
+  document.querySelector('#mobile-seconds').innerText = `${seconds} `
 
   if (distance < 0) {
     clearInterval(x); 

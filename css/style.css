@@ -179,7 +179,7 @@ a {
  overflow: hidden;
  position: relative;
  /* background: yellow; */
- color: black;
+ color: var(--white);
  /* border: 1px solid orange; */
  border-left-style: none;
  border-right-style: none;
@@ -389,6 +389,18 @@ a {
 
 }
 
+/* MOBILE COUNTDOWN */
+.mobile-date p{
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+.mobile-date span{
+  font-size: 15px;
+  color:white;
+  font-weight: bold;
+}
+
 /* ABOUT US - ELITE MISSION */
 
 #about-cta {
@@ -436,7 +448,7 @@ Clear floats after the columns
 #road-map-section {
   text-align: center;
    color: white;
-  padding: 6% 5%;
+  padding: 6% 2%;
   border-bottom: #00ffff;
   background-image: linear-gradient(to top, #30d0d0cc 0%, #330867f9 100%);
 }
@@ -444,12 +456,12 @@ Clear floats after the columns
 
 
 .roadmap-p {
-  padding: 3% 0;
+  padding: 3% 4%;
   color: var(--white);
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 100;
-  font-size: 13px;
+  font-size: 17px;
   letter-spacing: 2;
   font-family: "PT Sans Narrow", sans-serif;
 }
@@ -457,7 +469,7 @@ Clear floats after the columns
   font-size: 30px;
 }
 .rocket {
-  width: 60px;
+  width: 40px;
   position: absolute;
   /* bottom: 0px; */
   right: 30%;
@@ -475,12 +487,15 @@ Clear floats after the columns
   }
 }
 .rocket-2 {
-  width: 60px;
+  width: 40px;
   position: absolute;
   /* bottom: 0px; */
   left: 20%;
   animation: rocket 5s linear infinite;
 }
+
+
+
 
 
 /*  New road map */
@@ -504,14 +519,15 @@ Clear floats after the columns
   font-size: 22px;
   letter-spacing: 0;
   font-family: inherit;
-  color: #000000;
+  color: var(--white);
 }
 
 .map-hov p{
-  font-weight: 100;
-  font-size: 13px;
-  letter-spacing: 3;
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 1;
   font-family: "PT Sans Narrow", sans-serif;
+  
 }
 
 
@@ -528,6 +544,10 @@ Clear floats after the columns
 
 .rd-img-con{
   margin-bottom: 7%;
+}
+.rd-img-con i{
+  font-size: 60px; 
+  color: #330867f9;
 }
 
 .rd-text-con{
@@ -731,9 +751,7 @@ footer {
 
   
   .countdown-ctn{
-    padding: 1% 6%;
-    flex-direction: column;
-
+    display: none;
   }
 
   .countdown-ctn span {

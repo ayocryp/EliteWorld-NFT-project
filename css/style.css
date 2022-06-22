@@ -422,8 +422,8 @@ a:hover {
   color: var(--white);
 }
 #about-cta:hover {
-  color: rgba(255, 255, 255, 0.216);
-  background: var(--orange);
+  color: var(--white);
+  background: black;
   transition: ease-in-out, 1.5s;
   transform: translate(-2%);
   border: none;
@@ -504,7 +504,7 @@ Clear floats after the columns
 }
 
 .map-hov h6{
-  font-weight: 700;
+  font-weight: 00;
   font-size: 22px;
   letter-spacing: 0;
   font-family: inherit;

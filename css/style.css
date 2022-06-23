@@ -506,12 +506,22 @@ Clear floats after the columns .road-row:after {
   border-radius: 15px;
 }
 .text-ctn{
-  border: 1px solid var(--white);
+  border:  1px solid var(--purple);
+  margin-top: 5%;
+  padding: 3% 7%;
+  border-radius: 15px;
+  box-shadow: rgba(41, 134, 160, 0.66) 0px 10px 10px -5px;
+  
+}
+.text-ctn:hover{
+  border:  1px solid var(--purple);
   margin-top: 5%;
   padding: 4%;
   border-radius: 15px;
-  
+  /* box-shadow: rgba(41, 134, 160, 0.66) 0px 20px 30px -5px; */
+  background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%)
 }
+
 .map-hov h6 {
   padding: 4% 8%;
   font-size: 22px;
@@ -525,7 +535,7 @@ Clear floats after the columns .road-row:after {
   font-size: 16px;
   letter-spacing: 1;
   font-family: "PT Sans Narrow", sans-serif;
-  padding: 1% 5%;
+  padding: 1% 8%;
 }
 
 .rd-img-con span {
@@ -663,6 +673,13 @@ Clear floats after the columns .road-row:after {
 .acc-item{
 border: 2px solid gray;
 border-radius: 5px;
+}
+
+.acc-bg{
+  background-color: rgba(45, 38, 81, 0.406);
+  padding: 2%;
+  border-radius: 20px;
+  /* margin: 1%; */
 }
 /* FOOTER */
 
@@ -855,6 +872,13 @@ footer {
   .faq-con{
     margin-bottom: 25%;
   }
+
+  .acc-bg{
+    background-color: rgba(45, 38, 81, 0.406);
+    padding: 10%;
+    border-radius: 20px;
+    margin: 8%;
+  }
   .mint-btn-container {
     padding: 11% 15%;
     font-family: "PT Sans Narrow", sans-serif;
@@ -873,8 +897,8 @@ footer {
   }
 
   .collection-date{
-    border: 1px solid #2F075E;
-    background-color: #9474cf;
+    border: 1px solid #9474cf;
+    background-color: #846FF4;
     border-radius: 5px;
     color: white;
     font-size: 23px;

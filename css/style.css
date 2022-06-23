@@ -410,7 +410,7 @@ a {
   font-weight: 600;
 }
 .mobile-date span {
-  font-size: 21px;
+  font-size: 16px;
   color: var(--orange);
   font-weight: bold;
 }

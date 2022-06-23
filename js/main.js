@@ -61,7 +61,7 @@ let x = setInterval(function () {
 // Left and right scroll
 
 $('.main-image-container').slick({
-  dots: true,
+  dots: false,
   infinite: false,
   speed: 1000,
   slidesToShow: 3,

@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body {
   background-color: #000000;
@@ -64,8 +65,8 @@ body {
   text-align: center;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0) 87%,
-    #30bdd0e1 120%
+    rgba(0, 0, 0) 60%,
+    #31d2e7e6 160%
   );
 }
 
@@ -135,7 +136,9 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  background-image: linear-gradient(0deg, rgba(234, 35, 108, 0.356) 0%, #3d7d86cd 90%, #3d7d8694 100% );
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(0deg, rgba(104, 2, 40, 0.871) 0%, #49dff3ae 90%, #04abc1a1 100% );
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
 }
 #About-container p{
   color: var(--white);

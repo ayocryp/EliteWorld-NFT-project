@@ -873,5 +873,12 @@ footer {
     cursor: pointer;
   }
 
+  .collection-date{
+    border: 1px solid #2F075E;
+    background-color: #9474cf;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+  }
 
 }

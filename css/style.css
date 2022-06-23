@@ -149,12 +149,12 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   background: rgb(0, 17, 37);
 }
 #About-container p {
   color: var(--white);
-  font-weight: 600;
+  
 }
 
 .about-title {
@@ -162,40 +162,34 @@ a {
   letter-spacing: 0;
 }
 
-.about-text p {
-  font-family: "Lato", sans-serif;
-  color: var(--white);
+.about-text {
+  font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 5;
+  
+}
+
+.about-text a{
+  color: var(--cyan);
+}
+.about-text a:hover{
+  color: cyan;
 }
 
 /* Marq */
 
 .marq {
-  /* height: 50px; */
-  /* display: flexbox; */
-  /* justify-content: center; */
-  /* justify-items: center; */
-  /* align-items: center; */
-  /* width: 400%; */
-  /* background: #000000; */
-  /* overflow: hidden; */
-  /* position: relative; */
+
   top: 117px;
-  /* margin: 0 95%; */
-  /* padding: 0 25; */
-  /* border-top: 2px solid black; */
-  /* border: 3px solid rgba(51, 41, 112, 1); */
-  /* border-right-style: none; */
-  /* border-left-style: none; */
   display: flexbox;
   flex-direction: column;
   justify-content: center;
   height: 50px;
-  /* overflow: scroll */
   overflow: hidden;
   position: relative;
-  /* background: yellow; */
   color: var(--white);
-  /* border: 1px solid orange; */
+ 
   border-left-style: none;
   border-right-style: none;
 }
@@ -203,8 +197,7 @@ a {
 .marq p {
   /* padding-top: 2%; */
   position: absolute;
-  /* width: 100%;
- height: 100%; */
+ 
   margin: 0;
   /* line-height: 50px; */
   text-align: center;
@@ -213,29 +206,16 @@ a {
   /* -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);  */
   transform: translateX(100%);
-  /* Apply animation to this element */
-  /* -moz-animation: scroll-left 10s linear infinite;
- -webkit-animation: scroll-left 10s linear infinite; */
   animation: scroll-left 10s linear infinite;
 }
-/* Move it (define the animation) */
-/* @-moz-keyframes scroll-left {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-} */
-/* @-webkit-keyframes scroll-left {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-} */
+
 @keyframes scroll-left {
   0% {
-    /* -moz-transform: translateX(100%);
- -webkit-transform: translateX(100%);  */
+
     transform: translateX(100%);
   }
   100% {
-    /* -moz-transform: translateX(-100%);
- -webkit-transform: translateX(-100%);  */
+ 
     transform: translateX(-100%);
   }
 }
@@ -247,12 +227,10 @@ a {
   padding: 8% 10%;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
-  /* font-size: 18px; */
   letter-spacing: 5;
   background: #330867e9 ;
 }
 
-/* #9795f0 0%, #fbc8d4 100% */
 
 .collection-title {
   font-weight: bold;
@@ -268,7 +246,7 @@ a {
 }
 
 .collection-text {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 100;
   font-size: 18px;
   letter-spacing: 9;
@@ -418,11 +396,11 @@ a {
 /* ABOUT US - ELITE MISSION */
 
 #about-cta {
-  background: black;
+  background: var(--cyan);
   border: none;
   text-decoration: none;
   padding: 15px 18px;
-  color: var(--white);
+  color: #2F075E;
   border-radius: 1px;
   margin: 0.5rem;
   cursor: pointer;
@@ -435,7 +413,7 @@ a {
 #about-cta,
 a {
   text-decoration: none;
-  color: var(--white);
+  color: white;
 }
 
 #about-cta,
@@ -445,7 +423,7 @@ a:hover {
 }
 #about-cta:hover {
   color: var(--white);
-  background: black;
+  background: var(--cyan);
   transition: ease-in-out, 1.5s;
   transform: translate(-2%);
   border: none;
@@ -676,14 +654,24 @@ Clear floats after the columns .road-row:after {
   margin: 5%;
 }
 
+#acc-head{
+  background-color: #001125;
+  
+  color: white;
+}
+
+.acc-item{
+border: 2px solid gray;
+border-radius: 5px;
+}
 /* FOOTER */
 
 footer {
   padding: 5% 12%;
   font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 200;
+  /* font-weight: 200; */
   font-size: 18px;
-  letter-spacing: 5;
+  /* letter-spacing: 5; */
 }
 
 .footer-text {
@@ -693,7 +681,7 @@ footer {
   text-decoration: none;
   color: var(--orange);
   text-align: center;
-  font-weight: 200;
+  /* font-weight: 200; */
   text-align: center;
 }
 
@@ -707,18 +695,18 @@ footer {
 }
 
 .ico {
-  font-size: 35px;
+  font-size: 32px;
 
   color: var(--white);
-  text-align: center;
+  
 }
 
 .Copyright {
   margin-top: 4%;
-
-  font-size: 18px;
-  letter-spacing: 0;
-  font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  letter-spacing: 3;
+  font-weight: 100 !important;
 }
 
 /* Mobile */

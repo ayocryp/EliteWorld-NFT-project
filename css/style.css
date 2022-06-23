@@ -661,8 +661,13 @@ Clear floats after the columns
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.764) 15%, rgba(51, 8, 103, 0.759) 55%, rgba(0,255,255,0.6601234243697479) 100%);
   text-align: center;
   /* margin-top: 20px; */
-  padding: 7% 8%;
+  padding: 7% 4%;
   
+}
+
+.faq-con{
+  width: 90%;
+
 }
 
 /* FOOTER */
@@ -872,5 +877,16 @@ footer {
   font-family: "PT Sans Narrow", sans-serif;
   
 }
+
+
+.faq{
+ width: 100%;
+
+}
+
+.faq-con{
+  width: 100%;
+}
+
 
 }

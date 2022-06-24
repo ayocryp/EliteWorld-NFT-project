@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick/slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick/slick.css"/>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <script src="https://kit.fontawesome.com/0fed1877d2.js" crossorigin="anonymous"></script>
 </head>
@@ -166,7 +166,7 @@
 
 
   <section id="collection-section">
-    <h1 class="collection-title">ELITE WORLD ORDER COLLECTION</h1>
+    <h1 class="collection-title">NFT COLLECTION</h1>
     <div class="collection-text-container">
       <p class="collection-text"> The elite world order is a collection of 9,000 NFTs (Non-Fungible Tokens) made up of
         hundreds of unique hand-drawn 3D elements </p>
@@ -179,7 +179,39 @@
           id="live-supply"></span> </p>
     </div>
 
-    <div class="main-image-container">
+    <div class="row d-lg-none mt-5 justify-content-center align-items-center">
+      
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+  <div class="carousel-inner" >
+  
+    <div class="carousel-item active" >
+      <a href="/assets/bg.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"><img src="/assets/bg.png"  class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <a href="/assets/blue.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"><img src="/assets/blue.png" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <a href="/assets/founder.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"><img src="/assets/founder.png" class="d-block w-100" alt="..."></a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button"  data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+     
+    </div>
+
+
+
+
+
+    <div class="main-image-container d-none d-lg-block">
 
       <div class="inner-container">
         <img class="collection-img" src="/assets/ghand.png" alt="">
@@ -351,6 +383,7 @@
     </div>
 
 
+    
 
   </section>
 
@@ -700,7 +733,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="/js/main.js"></script>
   <script src="/bootstrap-web/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script>
 </body>
 
 </html>

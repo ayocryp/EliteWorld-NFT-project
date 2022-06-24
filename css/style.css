@@ -285,6 +285,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10%;
+}
+.main-image-container img {
+  
+  padding: 0.5%;
 }
 
 #scroll-left {
@@ -509,13 +514,13 @@ Clear floats after the columns .road-row:after {
 
 .rd-title-con {
   margin: 4%;
-  padding: 1% 5%;
+  /* padding: 1% 5%; */
 }
 .rd-mp-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding: 0 2%;
 }
 
 .rd-img-con i {

@@ -144,6 +144,19 @@ a {
   height: 650px;
 }
 
+.nft-img-ctn{
+  border-radius: 15px;
+  border: 1px solid inherit;
+}
+.nft-img-hov:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition: all ease 1s;
+
+}
+
 /* About Us section */
 
 #About-container {
@@ -549,14 +562,6 @@ Clear floats after the columns .road-row:after {
   padding: 1% 8%;
 }
 
-.rd-img-con span {
-  color: var(--white);
-  font-size: 15px;
-  background: var(--pink);
-  border-radius: 55px;
-  padding: 1%;
-}
-
 .map-hov:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -565,6 +570,16 @@ Clear floats after the columns .road-row:after {
   transition: all ease 1s;
   font-weight: 600;
 }
+
+.rd-img-con span {
+  color: var(--white);
+  font-size: 15px;
+  background: var(--pink);
+  border-radius: 55px;
+  padding: 1%;
+}
+
+
 
 .rd-img-con {
   margin-bottom: 7%;
@@ -758,11 +773,13 @@ footer {
   }
 
   .collection-title {
+    /* text-align: left; */
     font-size: 30px;
     font-family: inherit;
     margin: 6%;
   }
   .collection-text {
+    /* text-align: left; */
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;

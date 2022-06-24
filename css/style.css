@@ -149,7 +149,6 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  /* font-family: "Open Sans", sans-serif; */
   background: rgb(0, 17, 37);
 }
 #About-container p {
@@ -225,20 +224,17 @@ a {
 #collection-section {
   text-align: center;
   padding: 8% 10%;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 300;
-  letter-spacing: 5;
-  background: #330867e9 ;
+  /* background: rgb(43,94,136); */
+background: linear-gradient(180deg, rgba(0, 255, 255, 0.843) -34%, rgba(50, 14, 103, 0.953) 15%);
+  
 }
 
 
 .collection-title {
-  font-weight: bold;
   color: var(--white);
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 300;
+  font-family: inherit;
   font-size: 48px;
-  letter-spacing: 5;
+  letter-spacing: 0;
 }
 
 .collection-text-container {
@@ -246,15 +242,15 @@ a {
 }
 
 .collection-text {
+  font-size: 17px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 100;
-  font-size: 18px;
-  letter-spacing: 9;
+  letter-spacing: 5;
 }
 
 .sub-tittle-container {
   padding: 1% 15%;
-  background-color: rgb(132, 111, 244);
+  background-color: rgba(35, 11, 72, 0.996);
   font-size: 15px;
   margin: 4%;
   border-radius: 10px;
@@ -361,6 +357,15 @@ a {
   color: var(--info);
 }
 
+
+#days-container{
+  padding:2% 7%;
+}
+#hours-container{
+  padding: 3% 4.9%;
+}
+
+
 #min-container {
   padding: 3% 7%;
 }
@@ -438,8 +443,7 @@ Clear floats after the columns .road-row:after {
 #road-map-section {
   text-align: center;
   color: white;
-  padding: 1% 2%;
-  
+  padding: 1% 2%; 
   background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%);
 }
 
@@ -511,15 +515,15 @@ Clear floats after the columns .road-row:after {
   padding: 3% 7%;
   border-radius: 15px;
   box-shadow: rgba(41, 134, 160, 0.66) 0px 10px 10px -5px;
-  
+  background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%)
 }
 .text-ctn:hover{
   border:  1px solid var(--purple);
   margin-top: 5%;
-  padding: 4%;
+  padding: 5%;
   border-radius: 15px;
-  /* box-shadow: rgba(41, 134, 160, 0.66) 0px 20px 30px -5px; */
-  background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%)
+  
+  background-image: linear-gradient(to top, #330867f9 100%, #30d0d0cc -80%)
 }
 
 .map-hov h6 {
@@ -650,7 +654,6 @@ Clear floats after the columns .road-row:after {
 #nft {
   text-align: center;
   padding: 5% 15%;
-  /* background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(255,35,108,1) 887%); */
 }
 
 #faq {
@@ -679,16 +682,16 @@ border-radius: 5px;
   background-color: rgba(45, 38, 81, 0.406);
   padding: 2%;
   border-radius: 20px;
-  /* margin: 1%; */
+ 
 }
 /* FOOTER */
 
 footer {
   padding: 5% 12%;
   font-family: "PT Sans Narrow", sans-serif;
-  /* font-weight: 200; */
+  
   font-size: 18px;
-  /* letter-spacing: 5; */
+  
 }
 
 .footer-text {
@@ -749,6 +752,7 @@ footer {
 
   .collection-title {
     font-size: 25px;
+    font-family: inherit;
   }
 .collection-text{
   font-size: smaller;
@@ -897,11 +901,10 @@ footer {
   }
 
   .collection-date{
-    border: 1px solid #9474cf;
-    background-color: #846FF4;
-    border-radius: 5px;
+ 
+  
     color: white;
-    font-size: 23px;
+    font-size: 53px;
     padding: 4%;
   }
 

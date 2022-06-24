@@ -323,18 +323,23 @@
 
     <!-- Launch date -->
 
-    <div>
+    <div class="d-none d-lg-block" >
       <h1 class="collection-date mt-5"><i class="bi bi-hourglass-split"></i> LAUNCH DATE</h1>
     </div>
 
-    <div class="countdown-ctn">
+    <div class="d-lg-none mt-5">
+      <i class="bi bi-hourglass-split collection-date mt-5"></i> 
+    </div>
+
+
+    <div class="countdown-ctn" id="days-container">
       <div class="date-circle">
         <p class="date-launch" id="days"></p>
         <span> Days</span>
       </div>
 
 
-      <div class="date-circle ">
+      <div class="date-circle " id="hours-container">
         <p class="date-launch" id="hours"></p>
         <span> Hours</span>
       </div>

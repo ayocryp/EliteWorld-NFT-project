@@ -520,7 +520,7 @@ Clear floats after the columns .road-row:after {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 2%;
+  padding: 2%;
 }
 
 .rd-img-con i {

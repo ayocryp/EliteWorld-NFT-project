@@ -905,4 +905,17 @@ footer {
     padding: 4%;
   }
 
+
+  #About-container {
+    text-align: center;
+    padding: 1% 2%;
+    /* font-family: "Open Sans", sans-serif; */
+    background: rgb(0, 17, 37);
+  }
+
+.abt-text-ctn{
+  margin-top: -28%;
+  
+}
+
 }

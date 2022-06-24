@@ -193,11 +193,11 @@ a {
 
 .marq {
 
-  top: 117px;
+  top: 99.9px;
   display: flexbox;
   flex-direction: column;
   justify-content: center;
-  height: 50px;
+  height: 60px;
   overflow: hidden;
   position: relative;
   color: var(--white);
@@ -237,8 +237,7 @@ a {
 #collection-section {
   text-align: center;
   padding: 8% 10%;
-  /* background: rgb(43,94,136); */
-background: linear-gradient(180deg, rgba(0, 255, 255, 0.843) -34%, rgba(50, 14, 103, 0.953) 15%);
+  background-image: linear-gradient(to bottom, #30d0d0cc -80%, #330867d7 100%);
   
 }
 
@@ -407,7 +406,7 @@ background: linear-gradient(180deg, rgba(0, 255, 255, 0.843) -34%, rgba(50, 14, 
 }
 .mobile-date span {
   font-size: 16px;
-  color: var(--pink);
+  color: var(--cyan);
   font-weight: bold;
 }
 

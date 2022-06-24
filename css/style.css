@@ -289,7 +289,7 @@ a {
 }
 .main-image-container img {
   
-  padding: 0.5%;
+  padding: 3%;
 }
 
 #scroll-left {
@@ -514,7 +514,6 @@ Clear floats after the columns .road-row:after {
 
 .rd-title-con {
   margin: 4%;
-  /* padding: 1% 5%; */
 }
 .rd-mp-container {
   display: flex;

@@ -398,6 +398,13 @@ background: linear-gradient(180deg, rgba(0, 255, 255, 0.843) -34%, rgba(50, 14, 
   font-weight: bold;
 }
 
+.mobile-ctn{
+  border:  0.5px solid var(--purple);
+  padding: 8% 1%;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #6030d0cc -80%, #330867f9 100%)
+}
+
 /* ABOUT US - ELITE MISSION */
 
 #about-cta {
@@ -751,12 +758,16 @@ footer {
   }
 
   .collection-title {
-    font-size: 25px;
+    font-size: 30px;
     font-family: inherit;
+    margin: 6%;
   }
-.collection-text{
-  font-size: smaller;
-}
+  .collection-text {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 5;
+  }
   .road-map-title {
     color: var(--white);
   }
@@ -920,5 +931,7 @@ footer {
   margin-top: -28%;
   
 }
+
+
 
 }

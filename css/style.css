@@ -678,6 +678,8 @@ Clear floats after the columns .road-row:after {
   padding: 5% 15%;
 }
 
+
+/* FAQ */
 #faq {
   text-align: center;
   background: rgb(0, 17, 37);
@@ -706,6 +708,9 @@ border-radius: 5px;
   border-radius: 20px;
  
 }
+
+
+
 /* FOOTER */
 
 footer {
@@ -773,7 +778,6 @@ footer {
   }
 
   .collection-title {
-    /* text-align: left; */
     font-size: 30px;
     font-family: inherit;
     margin: 6%;
@@ -894,7 +898,7 @@ footer {
     font-family: "PT Sans Narrow", sans-serif;
   }
 
-  #faq {
+   #faq {
     text-align: center;
     background: rgb(0, 17, 37);
     margin: 0;
@@ -902,8 +906,9 @@ footer {
   }
   
   .faq-con{
+    display: none;
     margin-bottom: 25%;
-  }
+  } 
 
   .acc-bg{
     background-color: rgba(45, 38, 81, 0.406);

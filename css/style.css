@@ -259,12 +259,12 @@ a {
   color: var(--cyan);
 }
 .price-text span{
-  font-size: 50px;
+  font-size: 35px;
 }
 .live-text {
   color: var(--white);
   letter-spacing: 0;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 

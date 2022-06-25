@@ -395,7 +395,7 @@ a {
 
 .mobile-ctn {
   border: 0.5px solid var(--purple);
-  padding: 8% 1%;
+  padding: 4% 3%;
   border-radius: 5px;
   background-image: linear-gradient(to top, #6030d0cc -80%, #330867f9 100%);
 }
@@ -445,7 +445,7 @@ Clear floats after the columns .road-row:after {
 #road-map-section {
   text-align: center;
   color: white;
-  padding: 1% 2%;
+  padding: 1% 6%;
   background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%);
 }
 
@@ -829,7 +829,7 @@ footer {
   #road-map-section {
     text-align: center;
     color: white;
-    padding: 6% 4%;
+    padding: 6% 8%;
     border-bottom: #00ffff;
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   }

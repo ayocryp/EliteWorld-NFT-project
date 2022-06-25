@@ -247,23 +247,22 @@ a {
 .sub-tittle-container {
   background-image: linear-gradient(to top, #30d0d0cc -80%, #33086777 110%);
   border-radius: 10px;
-  /* width: 100%; */
-  /* padding: 0 5%; */
-  /* margin: 5%; */
+  padding: 5%;
 }
 
 .price-text {
-  padding-top: 9px;
+  /* padding-top: 9px; */
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
   letter-spacing: 2;
   font-size: 20px;
+  color: var(--cyan);
 }
 .price-text span{
   font-size: 50px;
 }
 .live-text {
-  color: var(--pink);
+  color: var(--white);
   letter-spacing: 0;
   font-size: 30px;
 }

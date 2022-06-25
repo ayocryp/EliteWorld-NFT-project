@@ -261,10 +261,9 @@ a {
 }
 
 .sub-tittle-container {
-  padding: 1% 15%;
-  background-color: rgba(35, 11, 72, 0.996);
-  font-size: 15px;
-  margin: 4%;
+  
+  
+  background-image: linear-gradient(to top, #30d0d0cc -80%, #3308677f 110%);
   border-radius: 10px;
 }
 
@@ -277,9 +276,15 @@ a {
 }
 
 .live-text {
-  color: var(--white);
-  font-weight: 100;
+  color: var(--pink);
+  /* font-weight: 100; */
+  letter-spacing: 0;
+  font-size: 20px;
+  /* margin: 5%; */
+  
 }
+
+
 
 .main-image-container {
   display: flex;

@@ -1,26 +1,25 @@
 
 
-// function nasa() {
+function nasa() {
 
 
 
-//   fetch(
-//     `https://api.nomics.com/v1/currencies/ticker?key=7146a873cb52d5b3166912e100f6c44c8b7678e4&ids=BTC,ETH,SOL&interval=1d,30d&convert=EUR&platform-currency=SOL&per-page=100&page=1`
-//   )
-//     .then((res) => res.json()) // parse response as JSON
-//     .then((data) => {
-//       console.log(data);
-//       document.getElementById("live-price").innerText = data[0].price;
-//       document.getElementById("live-cap").innerText = data[0].market_cap;
-//       document.getElementById("live-supply").innerText = data[0].circulating_supply;
-       
-//     })
-//     .catch((err) => {
-//       console.log(`error ${err}`);
-//     });
-// }
+  fetch(
+    "https://api.coingecko.com/api/v3/simple/price?ids=Solana&vs_currencies=USD&include_market_cap=true&include_24hr_change=true"
+  )
+    .then((res) => res.json()) // parse response as JSON
+    .then((data) => {
+      console.log(data);
+      document.getElementById("live-price").innerText = `${data.solana.usd}/$`;
+      document.getElementById("live-cap").innerText = data.solana.usd_market_cap;
+        document.getElementById("live-supply").innerText = `${data.solana.usd_24h_change.toFixed(2)}%`
+    })
+    .catch((err) => {
+      console.log(`error ${err}`);
+    });
+}
 
-// nasa()
+nasa()
 
 
 // Countdown 

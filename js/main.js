@@ -11,7 +11,7 @@ function nasa() {
     .then((data) => {
       console.log(data);
       document.getElementById("live-price").innerText = `${data.solana.usd}/$`;
-      document.getElementById("live-cap").innerText = data.solana.usd_market_cap;
+      document.getElementById("live-cap").innerText = `${data.solana.usd_market_cap.toFixed(2)}`;
         document.getElementById("live-supply").innerText = `${data.solana.usd_24h_change.toFixed(2)}%`
     })
     .catch((err) => {

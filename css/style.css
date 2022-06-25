@@ -158,7 +158,8 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  background: rgb(0, 17, 37);
+  /* background: rgb(0, 17, 37); */
+  background-color: #000000;
 }
 #About-container p {
   color: var(--white);
@@ -222,7 +223,8 @@ a {
 #collection-section {
   text-align: center;
   padding: 8% 10%;
-  background-image: linear-gradient(to bottom, #30d0d0cc -80%, #330867d7 100%);
+  /* background-image: linear-gradient(to bottom, #30d0d0cc -80%, #330867d7 100%); */
+  background-color: #000000;
 }
 
 .collection-title {
@@ -244,10 +246,10 @@ a {
   text-align: center;
 }
 
-.sub-tittle-container {
-  background-image: linear-gradient(to top, #30d0d0cc -80%, #33086777 110%);
+.sol-price {
+  /* background-image: linear-gradient(to top, #30d0d0cc -80%, #33086777 110%); */
   border-radius: 10px;
-  padding: 5%;
+  
 }
 
 .price-text {
@@ -352,7 +354,7 @@ a {
 }
 
 .date-circle {
-  border: 1px solid white;
+  border: 3px solid var(--cyan);
   margin: 4%;
   width: 50%;
   height: 55%;
@@ -454,7 +456,8 @@ Clear floats after the columns .road-row:after {
   text-align: center;
   color: white;
   padding: 1% 6%;
-  background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%);
+  /* background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%); */
+  background-color: #000000;
 }
 
 .roadmap-p {
@@ -588,12 +591,13 @@ Clear floats after the columns .road-row:after {
   text-align: center;
 
   padding: 8% 8%;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to top,
     #30d0d0cc -80%,
     #330867c7 60%,
     #001125
-  );
+  ); */
+  background-color: #000000;
 }
 .team-title {
   color: var(--white);
@@ -670,8 +674,8 @@ Clear floats after the columns .road-row:after {
 /* FAQ */
 #faq {
   text-align: center;
-  background: rgb(0, 17, 37);
-  /* margin-top: 20px; */
+  /* background: rgb(0, 17, 37); */
+  background-color: #000000;
   padding: 7% 4%;
 }
 
@@ -691,7 +695,7 @@ Clear floats after the columns .road-row:after {
 }
 
 .acc-bg {
-  background-color: rgba(45, 38, 81, 0.406);
+  /* background-color: rgba(45, 38, 81, 0.406); */
   padding: 2%;
   border-radius: 20px;
 }

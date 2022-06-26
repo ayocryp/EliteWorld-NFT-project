@@ -247,20 +247,25 @@ a {
 }
 
 .sol-price {
-  /* background-image: linear-gradient(to top, #30d0d0cc -80%, #33086777 110%); */
   border-radius: 10px;
-  
+  background: var(--cyan);
+  /* padding: 1%; */
+  border: 0.6px solid;
+  border-left-color: #000000;
+  /* margin: -21px; */
 }
 
 .price-text {
-  /* padding-top: 9px; */
+  text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
   letter-spacing: 2;
   font-size: 20px;
-  color: var(--cyan);
+  color: var(--white);
+  /* margin: -1%;  */
+  padding: 6% 3%;
 }
-.price-text span{
+.price-text span {
   font-size: 35px;
 }
 .live-text {
@@ -278,6 +283,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 7%;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(19, 201, 214, 0.07) 0px 2px 4px, rgba(23, 192, 201, 0.07) 0px 4px 8px, rgba(26, 163, 205, 0.07) 0px 8px 16px, rgba(22, 159, 187, 0.07) 0px 16px 32px, rgba(24, 174, 208, 0.07) 0px 32px 64px;
 }
 .main-image-container img {
   padding: 3%;
@@ -313,6 +319,7 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 3px;
+  
 }
 
 .label-container {
@@ -354,13 +361,13 @@ a {
 }
 
 .date-circle {
-  border: 3px solid var(--cyan);
+  border: 1px solid var(--cyan);
   margin: 4%;
   width: 50%;
   height: 55%;
   padding: 3% 6%;
   border-radius: 80%;
-  background-color: white;
+  background-color: black;
   color: var(--info);
 }
 
@@ -532,8 +539,8 @@ Clear floats after the columns .road-row:after {
   margin-top: 5%;
   padding: 5%;
   border-radius: 15px;
-
-  background-image: linear-gradient(to top, #330867f9 100%, #30d0d0cc -80%);
+  box-shadow: rgba(41, 134, 160, 0.66) 0px 10px 10px -5px;
+  background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%);
 }
 
 .map-hov h6 {
@@ -703,40 +710,39 @@ Clear floats after the columns .road-row:after {
 /* FOOTER */
 
 footer {
-  padding: 5% 12%;
+  padding: 3% 10%;
   font-family: "PT Sans Narrow", sans-serif;
-
+  background-color: #13A3B8;
   font-size: 18px;
 }
 
 .footer-text {
-  padding: 15px;
+  padding: 10px;
 }
 .footer-text a {
   text-decoration: none;
   color: var(--orange);
   text-align: center;
-  text-align: center;
 }
 
 .footer-title {
-  font-size: 30px;
+  font-size: 37px;
 
   color: var(--white);
-  letter-spacing: 1;
+  /* letter-spacing: 1; */
 
   padding-bottom: 3%;
 }
 
 .ico {
-  font-size: 32px;
-
+  font-size: 35px;
+  text-align: center;
   color: var(--white);
 }
 
 .Copyright {
   margin-top: 4%;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
   letter-spacing: 3;
   font-weight: 100 !important;
@@ -744,30 +750,30 @@ footer {
 
 
 #foot-colab {
-  background: var(--cyan);
+  background: white;
   border: none;
   text-decoration: none;
   padding: 18px 13px;
-  color: var(--danger);
+  color: var(--cyan);
   border-radius: 1px;
   margin: 0.5rem;
   cursor: pointer;
+
 }
 
 
 #foot-colab
 a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--cyan);
 }
 
 #foot-colab:hover {
-  background: var(--cyan);
+  background: var(--white);
   transition: ease-out, 1.5s;
-  transform: translate(-10%);
   border: none;
-  font-size: larger;
-  color: var(--white);
+  /* font-size: larger; */
+  color: var(--cyan);
   cursor: pointer;
   box-shadow: 0px 2px 5px var(--cyan), 0px 2px 5px var(--cyan);
 }
@@ -780,8 +786,7 @@ a {
     text-align: center;
     background: linear-gradient(
       180deg,
-      rgba(0, 0, 0) 87%,
-      rgba(0, 255, 255, 0.9) 280%
+      rgba(0, 0, 0)
     );
   }
   .hero-img {
@@ -846,7 +851,9 @@ a {
   .inner-rd-con {
     margin: 5%;
   }
-
+  #footer{
+    background-color: var(--cyan);
+  }
   .footer-title {
     font-size: 25px;
   }
@@ -873,7 +880,7 @@ a {
     color: white;
     padding: 6% 8%;
     border-bottom: #00ffff;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    
   }
 
   .roadmap-p {
@@ -915,7 +922,7 @@ a {
 
   #faq {
     text-align: center;
-    background: rgb(0, 17, 37);
+    /* background: rgb(0, 17, 37); */
     margin: 0;
     padding: 15% 8%;
   }
@@ -931,22 +938,7 @@ a {
     border-radius: 20px;
     margin: 8%;
   }
-  .mint-btn-container {
-    padding: 11% 15%;
-    font-family: "PT Sans Narrow", sans-serif;
-    font-weight: 100;
-    letter-spacing: 6;
-  }
-
-  .mint-btn {
-    border: 1px solid rgb(39, 10, 76);
-    padding: 5px 5px;
-    color: white;
-    background-color: rgb(72, 18, 143);
-    border-radius: 4px;
-    font-size: 19px;
-    cursor: pointer;
-  }
+ 
 
   .collection-date {
     color: white;
@@ -957,7 +949,6 @@ a {
   #About-container {
     text-align: center;
     padding: 1% 2%;
-    background: rgb(0, 17, 37);
   }
 
   .abt-text-ctn {

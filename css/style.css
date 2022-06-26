@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body {
   background-color: #000000;
@@ -236,13 +237,13 @@ a {
 
 .collection-text-container {
   padding: 1%;
+  
 }
 
 
 .sol-price {
   border-radius: 10px;
   background: var(--cyan);
-  /* padding: -8%; */
   border: 0.6px solid;
   border-left-color: #000000;
   /* margin: -21px; */
@@ -392,23 +393,38 @@ a {
   font-weight: bold;
 }
 
-/* MOBILE COUNTDOWN */
-.mobile-date p {
-  font-size: 34px;
-  color: white;
-  font-weight: 600;
-}
-.mobile-date span {
-  font-size: 16px;
-  color: var(--cyan);
-  font-weight: bold;
+
+
+.mobile-launch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.mobile-ctn {
-  border: 0.5px solid var(--purple);
-  padding: 4% 3%;
-  border-radius: 5px;
-  background-image: linear-gradient(to top, #6030d0cc -80%, #330867f9 100%);
+.circle-mobile{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  font-weight: lighter;
+  border: 1px solid var(--cyan);
+  background-color: black;
+  margin: 6%;
+}
+
+.mobile-inner p{
+  color: white; 
+  font-size: 18px;
+  font-weight: 100;
+  /* padding: 0; */
+  /* margin: 0; */
+  font-family: 'Montserrat', sans-serif;
+}
+.mobile-inner span{
+  color: white; 
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* ABOUT US - ELITE MISSION */
@@ -523,7 +539,7 @@ Clear floats after the columns .road-row:after {
 .text-ctn {
   border: 1px solid var(--purple);
   margin-top: 5%;
-  padding: 3% 7%;
+  padding: 5% 7%;
   border-radius: 15px;
   box-shadow: rgba(41, 134, 160, 0.66) 0px 10px 10px -5px;
   background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%);
@@ -706,7 +722,8 @@ Clear floats after the columns .road-row:after {
 footer {
   padding: 3% 10%;
   font-family: "PT Sans Narrow", sans-serif;
-  background-color: #13A3B8;
+  box-shadow: rgba(41, 134, 160, 0.66) 0px 10px 10px -5px;
+  background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%);
   font-size: 18px;
 }
 
@@ -852,9 +869,7 @@ a {
   .inner-rd-con {
     margin: 5%;
   }
-  #footer{
-    background-color: var(--cyan);
-  }
+
   .footer-title {
     font-size: 25px;
   }

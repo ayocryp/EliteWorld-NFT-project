@@ -403,8 +403,8 @@ a {
 }
 
 .circle-mobile{
-  width: 125px;
-  height: 125px;
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
   font-weight: lighter;
   border: 1px solid var(--cyan);

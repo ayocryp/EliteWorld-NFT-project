@@ -717,7 +717,7 @@ footer {
 }
 
 .footer-text {
-  padding: 10px;
+  padding: 11px;
 }
 .footer-text a {
   text-decoration: none;
@@ -798,6 +798,13 @@ a {
     letter-spacing: 0;
   }
 
+  .about-text {
+    font-size: 13px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1;
+    padding: 4%;
+  }
   .collection-title {
     font-size: 30px;
     font-family: inherit;

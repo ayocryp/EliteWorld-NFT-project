@@ -547,7 +547,7 @@ Clear floats after the columns .road-row:after {
 }
 
 .inner-rd-con {
-  margin: 1%;
+  margin: -2.5% 5%;
   border-radius: 15px;
 }
 

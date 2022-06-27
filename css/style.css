@@ -46,6 +46,14 @@ body {
   --dark: #343a40;
 }
 
+#preloader{
+  background: #000000 url(/assets/preloader.gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
 #navmenu {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 300;
@@ -1001,3 +1009,4 @@ a {
 
 
 }
+

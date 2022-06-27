@@ -94,8 +94,8 @@ body {
 .text {
   font-size: 16px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 200;
-  letter-spacing: 0;
+  font-weight: 100;
+  letter-spacing: 5;
 }
 
 .text,
@@ -159,7 +159,7 @@ a {
 #About-container {
   text-align: center;
   padding: 5% 2%;
-  /* background: rgb(0, 17, 37); */
+ 
   background-color: #000000;
 }
 #About-container p {
@@ -169,6 +169,8 @@ a {
 .about-title {
   color: var(--white);
   letter-spacing: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 500;
 }
 
 .about-text {
@@ -208,6 +210,10 @@ a {
   font-size: 20px;
   transform: translateX(100%);
   animation: scroll-left 10s linear infinite;
+  /* font-size: 16px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 5;
 }
 
 @keyframes scroll-left {
@@ -224,7 +230,6 @@ a {
 #collection-section {
   text-align: center;
   padding: 8% 10%;
-  /* background-image: linear-gradient(to bottom, #30d0d0cc -80%, #330867d7 100%); */
   background-color: #000000;
 }
 
@@ -233,11 +238,15 @@ a {
   font-family: inherit;
   font-size: 48px;
   letter-spacing: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 500;
 }
 
 .collection-text-container {
-  padding: 1%;
-  
+  padding: 4%;
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 2;
+
 }
 
 
@@ -347,6 +356,8 @@ a {
   color: var(--white);
   letter-spacing: 0;
   padding-top: 2%;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 500;
 }
 
 .countdown-ctn {
@@ -473,8 +484,9 @@ Clear floats after the columns .road-row:after {
   text-align: center;
   color: white;
   padding: 1% 6%;
-  /* background-image: linear-gradient(to top, #30d0d0cc -80%, #330867f9 100%); */
   background-color: #000000;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 500;
 }
 
 .roadmap-p {
@@ -694,7 +706,8 @@ Clear floats after the columns .road-row:after {
 /* FAQ */
 #faq {
   text-align: center;
-  /* background: rgb(0, 17, 37); */
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 500;
   background-color: #000000;
   padding: 7% 4%;
 }
@@ -941,7 +954,8 @@ a {
 
   #faq {
     text-align: center;
-    /* background: rgb(0, 17, 37); */
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 500;
     margin: 0;
     padding: 15% 8%;
   }

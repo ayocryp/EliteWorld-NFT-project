@@ -46,13 +46,6 @@ body {
   --dark: #343a40;
 }
 
-#preloader{
-  background: #000000 url(/assets/preloader.gif) no-repeat center center;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
 
 #navmenu {
   font-family: "PT Sans Narrow", sans-serif;
@@ -259,18 +252,18 @@ a {
 
 
 .sol-price {
-  border-radius: 10px;
+  border-radius: 1px;
   background: var(--cyan);
   border: 0.6px solid;
   border-left-color: #27cece;
-  box-shadow: rgba(19, 200, 203, 0.4) 0px 7px 6px, rgba(16, 198, 205, 0.3) 0px 9px 13px -3px, rgba(17, 192, 208, 0.2) 0px -7px 0px inset;
+  box-shadow: rgba(19, 200, 203, 0.4) 2px 7px 6px, rgba(16, 198, 205, 0.3) 0px 9px 13px -3px, rgba(17, 192, 208, 0.2) 0px -9px 5px inset;
 }
 
 .price-text {
   text-align: center;
   font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 300;
-  letter-spacing: 2;
+  font-weight: 100;
+  letter-spacing: 0;
   font-size: 20px;
   color: var(--white);
   margin: -1%; 
@@ -382,7 +375,7 @@ a {
   padding: 3% 6%;
   border-radius: 80%;
   background-color: black;
-  /* color: var(--info); */
+  box-shadow: rgba(29, 152, 158, 0.25) 0px 60px 80px -20px, rgba(18, 174, 182, 0.3) 0px 25px 30px -30px, rgba(24, 139, 161, 0.35) 0px -2px 6px 0px inset;
 }
 
 #days-container {
@@ -403,13 +396,15 @@ a {
 .countdown-ctn p {
   font-size: 45px;
   color: var(--white);
-  font-weight: 600;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .countdown-ctn span {
   font-size: 30px;
   color: var(--white);
-  font-weight: bold;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -435,8 +430,6 @@ a {
   color: white; 
   font-size: 18px;
   font-weight: 100;
-  /* padding: 0; */
-  /* margin: 0; */
   font-family: 'Montserrat', sans-serif;
 }
 .mobile-inner span{

@@ -363,7 +363,7 @@ a {
   padding: 3% 6%;
   border-radius: 80%;
   background-color: black;
-  color: var(--info);
+  /* color: var(--info); */
 }
 
 #days-container {
@@ -383,13 +383,13 @@ a {
 
 .countdown-ctn p {
   font-size: 45px;
-  color: var(--info);
+  color: var(--white);
   font-weight: 600;
 }
 
 .countdown-ctn span {
   font-size: 30px;
-  color: var(--info);
+  color: var(--white);
   font-weight: bold;
 }
 
@@ -407,7 +407,7 @@ a {
   height: 115px;
   border-radius: 50%;
   font-weight: lighter;
-  border: 1px solid var(--cyan);
+  border: 0.9px solid var(--cyan);
   background-color: black;
   margin: 6%;
 }
@@ -536,6 +536,8 @@ Clear floats after the columns .road-row:after {
   margin: 5%;
   border-radius: 15px;
 }
+
+
 .text-ctn {
   border: 1px solid var(--purple);
   margin-top: 5%;
@@ -580,10 +582,11 @@ Clear floats after the columns .road-row:after {
 
 .rd-img-con span {
   color: var(--white);
-  font-size: 15px;
+  font-size: 14px;
   background: var(--pink);
+  text-align: center;
   border-radius: 55px;
-  padding: 1%;
+  padding: 2%;
 }
 
 .rd-img-con {
@@ -970,4 +973,15 @@ a {
   .abt-text-ctn {
     margin-top: -28%;
   }
+
+
+
+.text-ctn{
+  margin-top: 15%;
+  margin: -9.7%;
+  padding: 2% 10%;
+  text-align: center;
+}
+
+
 }

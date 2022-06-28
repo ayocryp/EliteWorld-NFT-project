@@ -87,22 +87,23 @@ $('.main-image-container').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
+        
       }
     }
   ]
 });
 
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-  $(this).ekkoLightbox();
-});
+// $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+//   event.preventDefault();
+//   $(this).ekkoLightbox();
+// });
 
-$(this).ekkolightbox({
-  loadingMessage: "Loading…",
-  showArrows: true,
-  leftArrow: "<<<",
-  rightArrow: ">>>"
-});
+// $(this).ekkolightbox({
+//   loadingMessage: "Loading…",
+//   showArrows: false,
+//   leftArrow: false,
+//   rightArrow: false,
+// });
 
 
 

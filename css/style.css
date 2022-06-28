@@ -255,8 +255,10 @@ a {
   border-radius: 1px;
   background: var(--cyan);
   border: 0.6px solid;
-  border-left-color: #27cece;
-  box-shadow: rgba(19, 200, 203, 0.4) 2px 7px 6px, rgba(16, 198, 205, 0.3) 0px 9px 13px -3px, rgba(17, 192, 208, 0.2) 0px -9px 5px inset;
+  border-left-color: #27cece !important;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: rgba(19, 200, 203, 0.4) 2px 7px 6px, rgba(16, 180, 205, 0.3) 0px 5px 13px -3px, rgba(17, 192, 208, 0.2) 0px -9px 5px inset;
 }
 
 .price-text {

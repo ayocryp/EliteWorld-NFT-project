@@ -364,12 +364,18 @@ a {
 }
 
 .countdown-ctn {
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: center; */
+  /* margin: 5% 12%; */
+  margin-top: 9%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  /* padding: -8%; */
 }
 
-.date-circle {
+/* .date-circle {
   border: 1px solid var(--cyan);
   margin: 4%;
   width: 50%;
@@ -378,9 +384,9 @@ a {
   border-radius: 80%;
   background-color: black;
   box-shadow: rgba(29, 152, 158, 0.25) 0px 60px 80px -20px, rgba(18, 174, 182, 0.3) 0px 25px 30px -30px, rgba(24, 139, 161, 0.35) 0px -2px 6px 0px inset;
-}
+} */
 
-#days-container {
+/* #days-container {
   padding: 2% 7%;
 }
 #hours-container {
@@ -393,6 +399,15 @@ a {
 
 #seconds-container {
   padding: 3% 7%;
+} */
+.desk-inner-ctn{
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  font-weight: lighter;
+  border: 0.9px solid var(--cyan);
+  background-color: black;
+  margin: 10%;
 }
 
 .countdown-ctn p {
@@ -409,7 +424,7 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+/* Mobile countdown */
 
 .mobile-launch{
   display: flex;
@@ -417,6 +432,8 @@ a {
   align-items: center;
   
 }
+
+
 
 .circle-mobile{
   width: 115px;

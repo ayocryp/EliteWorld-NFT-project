@@ -394,14 +394,14 @@ a {
 }
 
 .countdown-ctn p {
-  font-size: 45px;
+  font-size: 38px;
   color: var(--white);
   font-weight: 100;
   font-family: 'Montserrat', sans-serif;
 }
 
 .countdown-ctn span {
-  font-size: 30px;
+  font-size: 23px;
   color: var(--white);
   font-weight: 100;
   font-family: 'Montserrat', sans-serif;

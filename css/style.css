@@ -666,8 +666,8 @@ Clear floats after the columns .road-row:after {
   font-weight: 400;
   font-size: 22px;
   letter-spacing: 0;
-  text-transform: uppercase;
 }
+
 .team-text p {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 15px;
@@ -675,11 +675,13 @@ Clear floats after the columns .road-row:after {
   color: var(--cyan);
 }
 
+
 .team-container {
   display: flex;
   justify-content: center;
   margin: 5%;
 }
+
 
 .team-image {
   border: 0px solid var(--white);

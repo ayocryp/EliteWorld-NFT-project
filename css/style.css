@@ -670,7 +670,7 @@ Clear floats after the columns .road-row:after {
 
 .team-text p {
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 15px;
+  font-size: 22px;
   letter-spacing: 2;
   color: var(--cyan);
 }
